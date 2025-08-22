@@ -90,7 +90,7 @@ p {
 }
 
 .header.scrolled .navbar li a {
-  color: #065b69;
+    color: #065b69;
 }
 
 
@@ -294,7 +294,7 @@ p {
     justify-content: start;
 }
 
-.title h2{
+.title h2 {
     font-weight: 600;
     font-size: 60px;
 }
@@ -321,7 +321,7 @@ p {
     transition: background-color .5s, color .5s;
 }
 
-.btn-s i{
+.btn-s i {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -393,12 +393,12 @@ p {
     gap: 20px;
 }
 
-.txt-wrap h4{
+.txt-wrap h4 {
     font-size: 16px;
     font-weight: 400;
 }
 
-.txt-wrap h3{
+.txt-wrap h3 {
     font-size: 32px;
     font-weight: 600;
 }
@@ -553,32 +553,33 @@ p {
 
 
 /* Testimonials Section */
-.testimonials{
+.testimonials {
     background-color: #000;
     color: white;
     justify-content: center;
 }
 
-.testimonials h2{
+.testimonials h2 {
     font-size: 60px;
     font-weight: 600;
-    margin: 10px 325px 60px 325px;
+    margin: 0px auto 60px auto;
     text-align: center;
 }
 
-.testimonial-content-img{
+.testimonial-content-img {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    position: relative;
 }
 
-.test-left{
+.test-left {
     height: 450px;
     width: 450px;
 }
 
-.test-left img{
+.test-left img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -589,52 +590,54 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
-  max-width: 60%;
-  width: 100%;  
+    max-width: 60%;
+    width: 100%;
 }
 
 /* Slides */
 .mySlides {
-  /* display: none; */
-  padding: 80px;
-  text-align: center;
+    /* display: none; */
+    padding: 80px;
+    text-align: center;
 }
 
 
 
 /* Next & previous buttons */
-.prev{
-  cursor: pointer;
-  position: absolute;  
-  right: 60px;
-  margin-top: -142px;
-  padding: 16px;
-  color: white;
-  border: 1px solid;
-  border-radius: 50%;
-  font-size: 20px;
-  user-select: none;
+.prev {
+    cursor: pointer;
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    margin-top: -142px;
+    padding: 16px;
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  cursor: pointer;
-  position: absolute;
-  right: 0px;
-  margin-top: -142px;
-  padding: 16px;
-  color: white;
-  font-size: 20px;
-  border: 1px solid;
-  border-radius: 50%;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-top: -142px;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    user-select: none;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 /* Add a background color to the active dot/circle
@@ -643,19 +646,71 @@ p {
 } */
 
 /* Add an italic font style to all quotes */
-q {font-style: italic; font-size: 30px; font-weight: 500;}
+q {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 500;
+}
 
 /* Add a blue color to the author */
-.author {color: #065b69; font-weight: 800;}
+.author {
+    color: #065b69;
+    font-weight: 800;
+    font-size: 16px;
+}
 
 
 
 
 
 
+/* Collab Section */
+.collab-section {
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.collab-section h2 {
+    font-size: 76px;
+    line-height: 83.6px;
+}
 
+.arrow-i {
+    border-radius: 50%;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    /* padding: 30px; */
+}
 
+.arrow-i i{
+    font-size: 130px;
+    /* padding: 30px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.collab-section:hover .arrow-i{
+    background-color: #065b69;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.collab-section:hover i{
+    /* background-color: #065b69; */
+    font-size: 35px;
+    transition: 0.5s;
+    /* transition: 0.5s; */
+}
 
 
 

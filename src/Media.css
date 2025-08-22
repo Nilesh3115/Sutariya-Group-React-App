@@ -79,6 +79,15 @@
     .service-grid {
         width: 286px;
     }
+
+    .mySlides{
+        padding: 80px 80px 80px 0px;
+    }
+
+    .test-left{
+        width: 406px;
+        height: 412px;
+    }
 }
 
 
@@ -148,6 +157,23 @@
         font-size: 33px;
     }
 
+    .testimonials h2{
+        font-size: 46px;
+    }
+
+    q{
+        font-size: 24px;
+    }
+
+    .mySlides{
+        padding: 10px;
+    }
+
+    .test-left{
+        width: 320px;
+        height: 324px;
+    }
+
 }
 
 
@@ -210,6 +236,29 @@
 
     .hover-img{
         display: none;
+    }
+
+    .testimonial-content-img{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .mySlides{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .test-left{
+        width: 320px;
+        height: 324px;
+    }
+
+    q{
+        font-size: 20px;
+    }
+
+    .testimonials h2{
+        font-size: 36px;
     }
 }
 
