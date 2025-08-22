@@ -11,6 +11,7 @@ import { About } from "./pages/About";
 import { Services } from "./pages/Services";
 import { Contact } from "./pages/Contact";
 import { ErrorPage } from "./pages/ErrorPage";
+import { Project } from "./pages/Project";
 
 
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "project",
+        element: <Project />,
       },
       {
         path: "services",

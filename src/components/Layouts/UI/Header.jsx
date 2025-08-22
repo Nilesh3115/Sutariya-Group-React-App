@@ -43,6 +43,11 @@ export const Headers = () => {
                         </NavLink>
                     </li>
                     <li className="ac-h-e">
+                        <NavLink to="/project">
+                            Project
+                        </NavLink>
+                    </li>
+                    <li className="ac-h-e">
                         <NavLink to="/services">
                             Services
                         </NavLink>
