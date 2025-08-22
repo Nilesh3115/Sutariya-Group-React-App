@@ -1,3 +1,8 @@
+import { GoArrowUpRight } from "react-icons/go";
+
+
+
+
 const WorkSection = () => {
     return (
 
@@ -18,7 +23,7 @@ const WorkSection = () => {
                 strategy, design, and development services tailored to bring your ideas to life.
             </p>
             <button className="btn-s">
-                Get Started <i>↗</i>
+                Get Started <i><GoArrowUpRight /></i>
             </button>
         </div>
     </div>
@@ -40,7 +45,8 @@ const WorkSection = () => {
                 </div>
                 {/* <!-- Arrow Icon (Clickable Link/Action) --> */}
                 <div className="arrow">
-                    <i>↗</i>
+                     <i><GoArrowUpRight /></i>
+                    {/* <i><GoArrowUpRight /></i> */}
                 </div>
             </div>
         </div>
@@ -56,7 +62,7 @@ const WorkSection = () => {
                     <h3>Dynamotion</h3>
                 </div>
                 <div className="arrow">
-                    <i>↗</i>
+                    <i><GoArrowUpRight /></i>
                 </div>
             </div>
         </div>
@@ -72,7 +78,7 @@ const WorkSection = () => {
                     <h3>Solaria Marketing</h3>
                 </div>
                 <div className="arrow">
-                    <i>↗</i>
+                    <i><GoArrowUpRight /></i>
                 </div>
             </div>
         </div>
@@ -88,7 +94,7 @@ const WorkSection = () => {
                     <h3>Elevate Fitness App</h3>
                 </div>
                 <div className="arrow">
-                    <i>↗</i>
+                    <i><GoArrowUpRight /></i>
                 </div>
             </div>
         </div>

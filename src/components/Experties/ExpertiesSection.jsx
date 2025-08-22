@@ -1,3 +1,5 @@
+import { GoArrowUpRight } from "react-icons/go";
+
 import { useState } from "react";
 
 const ExpertiseSection = () => {
@@ -66,7 +68,7 @@ const ExpertiseSection = () => {
                 <span className="num">{item.num}</span>
                 <span>{item.title}</span>
               </div>
-              <span className="arroww">↗</span>
+              <span className="arroww"><GoArrowUpRight /></span>
               <img
                 src={item.img}
                 alt={item.title}

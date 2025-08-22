@@ -321,6 +321,12 @@ p {
     transition: background-color .5s, color .5s;
 }
 
+.btn-s i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .btn-s:hover {
     background-color: #065b69;
 }
@@ -412,23 +418,26 @@ p {
 }
 
 .card:hover i {
-    transition: 0.9s;
-    font-size: 20px;
+    transition: 0.5s;
+    font-size: 30px;
+    align-items: center;
 }
 
 .card:hover .arrow {
     background-color: #065b69;
-    transition: 0.9s;
+    transition: 0.5s;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .card:hover .txt-wrap {
     color: #065b69;
-    transition: 0.9s;
+    transition: 0.5s;
 }
 
 .card:hover .txt-wrap h4 {
     color: #065b69;
-    transition: 0.9s;
+    transition: 0.5s;
 }
 
 
@@ -587,15 +596,17 @@ p {
 
 /* Slides */
 .mySlides {
-  display: none;
+  /* display: none; */
   padding: 80px;
   text-align: center;
 }
 
+
+
 /* Next & previous buttons */
 .prev{
   cursor: pointer;
-  position: absolute;
+  position: absolute;  
   right: 60px;
   margin-top: -142px;
   padding: 16px;
