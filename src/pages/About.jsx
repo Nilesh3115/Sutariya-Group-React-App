@@ -1,3 +1,9 @@
-export const About = () =>{
-    return <h1>About Page</h1>;
-};
+import AboutHeroSection from "../components/About/AboutHeroSection";
+
+export function About() {
+    return (
+        <>
+        <AboutHeroSection/>
+        </>
+    );
+}

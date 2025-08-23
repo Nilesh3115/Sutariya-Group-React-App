@@ -12,7 +12,7 @@ const HeroSection = () => {
                     Our multidisciplinary expertise spans creative design, advanced printing, and digital innovation — ensuring
                     <br />your business has everything it needs to lead in today’s market.
                 </p>
-                <a href="./services.php" className="btn">Get Started Today</a>
+                <a href="" className="btn">Get Started Today</a>
             </div>
         </section>
         // End of Hero Section
