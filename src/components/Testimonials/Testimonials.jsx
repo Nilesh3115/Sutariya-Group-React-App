@@ -1,3 +1,5 @@
+import "./Testimonials.css"
+
 import { useState } from "react";
 
 const testimonials = [

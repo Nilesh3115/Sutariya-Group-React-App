@@ -1,3 +1,5 @@
+import "./CollabSection.css"
+
 import { NavLink } from "react-router-dom";
 
 import { GoArrowUpRight } from "react-icons/go";

@@ -1,3 +1,13 @@
+import "./Footer.css"
+
+import { FaFacebookF } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
+
+
 import { NavLink } from "react-router-dom";
 
 export const Footers = () => {
@@ -10,11 +20,12 @@ export const Footers = () => {
                 <p>&copy;2025 Sutariya Group Services Limited</p>
             </div>
             <div className="icon">
-                <a href=""><i className="fab fa-facebook-f"></i></a>
-                <a href=""><i className="fab fa-youtube"></i></a>
-                <a href=""><i className="fab fa-twitter"></i></a>
-                <a href=""><i className="fab fa-instagram"></i></a>
-                <a href=""><i className="fa-brands fa-linkedin"></i></a>
+                <a href=""><i><FaFacebookF /></i></a>
+                <a href=""><i><FaYoutube /></i></a>
+                <a href=""><i><FaTwitter /></i></a>
+                <a href=""><i><FaInstagram /></i></a>
+                <a href=""><i><FaLinkedin /></i></a>
+
             </div>
         </footer>
     );

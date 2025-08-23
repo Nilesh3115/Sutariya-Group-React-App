@@ -1,0 +1,51 @@
+/* Collab Section */
+.collab-section {
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collab-section h2 {
+    font-size: 76px;
+    line-height: 83.6px;
+}
+
+.arrow-i {
+    border-radius: 50%;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    display: flex;
+}
+
+.arrow-i i{
+    font-size: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.collab-section:hover .arrow-i{
+    background-color: #065b69;
+    font-size: 35px;
+    transition: 0.9s;
+}
+
+.collab-section:hover i{
+    font-size: 35px;
+    transition: 0.9s;
+}
+
+
+
+
+
+
+
+

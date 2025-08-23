@@ -1,3 +1,5 @@
+import "./ExpertiesSection.css";
+
 import { GoArrowUpRight } from "react-icons/go";
 
 import { useState } from "react";

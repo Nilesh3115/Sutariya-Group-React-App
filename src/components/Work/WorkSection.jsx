@@ -1,3 +1,5 @@
+
+import "./WorkSection.css"
 import { GoArrowUpRight } from "react-icons/go";
 
 

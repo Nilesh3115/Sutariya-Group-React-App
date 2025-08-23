@@ -1,0 +1,177 @@
+/* Work Section */
+.works {
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.work-para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    gap: 40px 10px;
+    margin-bottom: 60px;
+}
+
+.title {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.title h2 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.para {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.btn-s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 99px;
+    padding: 08px 32px;
+    color: white;
+    transition: background-color .5s, color .5s;
+}
+
+.btn-s i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-s:hover {
+    background-color: #065b69;
+}
+
+
+
+
+
+/* Image Cards */
+
+.image-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 60px 23px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 49%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-card {
+    max-width: 100%;
+    width: 50%;
+}
+
+.card-img {
+    width: 100%;
+    height: 432px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-img:hover img {
+    transition: 0.9s;
+    transform: scale(1.1);
+}
+
+
+.txt-wrap-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+.txt-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.txt-wrap h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.txt-wrap h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.arrow {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.arrow i {
+    /* transform: rotate(320deg); */
+    font-size: 80px;
+}
+
+.card:hover i {
+    transition: 0.5s;
+    font-size: 30px;
+    align-items: center;
+}
+
+.card:hover .arrow {
+    background-color: #065b69;
+    transition: 0.5s;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.card:hover .txt-wrap {
+    color: #065b69;
+    transition: 0.5s;
+}
+
+.card:hover .txt-wrap h4 {
+    color: #065b69;
+    transition: 0.5s;
+}
+
+
+
+

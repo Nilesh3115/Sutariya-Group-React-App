@@ -1,0 +1,109 @@
+/* Experties Section Lists */
+.expertise-section {
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    /* padding: 140px 100px; */
+    position: relative;
+    background: #000;
+    /* background: linear-gradient(158deg, rgba(6, 91, 105, 1) 0%, rgba(0, 0, 0, 1) 50%); */
+}
+
+.expertise-section h2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.accordion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.accordion-item {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item-left {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.item-left span.num {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.accordion-item.active .item-left span:last-child {
+    color: #065b69;
+}
+
+.arroww {
+    font-size: 70px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    padding: 0px 100px;
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 200px;
+    /* adjust if content bigger */
+    padding: 15px 100px;
+}
+
+.accordion-item.active .arroww {
+    transform: rotate(45deg);
+}
+
+/* Hover Image */
+.hover-img {
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    transform: translateY(-50%);
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    z-index: 10;
+}
+
+.accordion-item:hover .hover-img {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.05);
+}
+
+
+
+
+
+

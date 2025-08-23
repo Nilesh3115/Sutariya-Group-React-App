@@ -1,0 +1,111 @@
+/* Testimonials Section */
+.testimonials {
+    background-color: #000;
+    color: white;
+    justify-content: center;
+}
+
+.testimonials h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0px auto 60px auto;
+    text-align: center;
+}
+
+.testimonial-content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+
+.test-left {
+    height: 450px;
+    width: 450px;
+}
+
+.test-left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 60%;
+    width: 100%;
+}
+
+/* Slides */
+.mySlides {
+    /* display: none; */
+    padding: 80px;
+    text-align: center;
+}
+
+
+
+/* Next & previous buttons */
+.prev {
+    cursor: pointer;
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    margin-top: -142px;
+    padding: 16px;
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-top: -142px;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    user-select: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* Add a background color to the active dot/circle
+.active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: #065b69;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+
+
+
