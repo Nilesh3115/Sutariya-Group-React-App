@@ -142,24 +142,27 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    flex: none;
 }
 
 .arrow i {
-    /* transform: rotate(320deg); */
     font-size: 80px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card:hover i {
-    transition: 0.5s;
     font-size: 30px;
-    align-items: center;
+    transition: 0.9s;
 }
 
 .card:hover .arrow {
     background-color: #065b69;
-    transition: 0.5s;
-    /* align-items: center;
-    justify-content: center; */
+    transition: 0.9s;
+    font-size: 30px;
 }
 
 .card:hover .txt-wrap {
