@@ -22,7 +22,7 @@
     display: flex;
 }
 
-.arrow-i i{
+.arrow-i i {
     font-size: 130px;
     justify-content: center;
     align-items: center;
@@ -31,21 +31,32 @@
     width: 100%;
 }
 
-.collab-section:hover .arrow-i{
+.collab-section:hover .arrow-i {
     background-color: #065b69;
     font-size: 35px;
     transition: 0.9s;
 }
 
-.collab-section:hover i{
+.collab-section:hover i {
     font-size: 35px;
     transition: 0.9s;
 }
 
 
 
+/* Media Queries Css Started Here */
 
+/* Media Query for 499px to 768px Devices */
+@media (min-width: 499px) and (max-width: 768px) {
+    .collab-section h2{
+        font-size: 52px;
+        line-height: 53.2px;
+    }
+}
 
-
-
-
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .collab-section h2{
+        font-size: 60px;
+    }
+}

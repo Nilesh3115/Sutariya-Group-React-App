@@ -22,12 +22,12 @@ const AboutHeroSection = () => {
 
             <section className="works section-p1 section-mw">
 
-                <div className="work-para">
+                <div className="ab-work-para-wrap">
                     {/* <!-- Section Title --> */}
-                    <div className="title">
+                    <div className="ab-work-title">
                         <h2>We make your<br />bussiness stand out</h2>
                     </div>
-                    <div className="para">
+                    <div className="ab-work-para">
                         <p>At Kinetiq, we are the architects of distinctive and memorable creative experiences. That align with but surpass the continually evolving standards of the creative landscape.</p>
                     </div>
                 </div>
@@ -44,18 +44,18 @@ const AboutHeroSection = () => {
                         </div>
 
                         <div className="count-wrap">
-                            <h3>329+</h3>
-                            <p>Project Completed</p>
+                            <h3>99%</h3>
+                            <p>Satisfied Clients</p>
                         </div>
 
                         <div className="count-wrap">
-                            <h3>329+</h3>
-                            <p>Project Completed</p>
+                            <h3>6240+</h3>
+                            <p>Hours of work</p>
                         </div>
 
                         <div className="count-wrap">
-                            <h3>329+</h3>
-                            <p>Project Completed</p>
+                            <h3>05+</h3>
+                            <p>Years Experience</p>
                         </div>
                     </div>
                 </div>

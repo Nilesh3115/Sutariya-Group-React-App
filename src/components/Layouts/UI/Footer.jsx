@@ -20,11 +20,11 @@ export const Footers = () => {
                 <p>&copy;2025 Sutariya Group Services Limited</p>
             </div>
             <div className="icon">
-                <a href=""><i><FaFacebookF /></i></a>
-                <a href=""><i><FaYoutube /></i></a>
-                <a href=""><i><FaTwitter /></i></a>
-                <a href=""><i><FaInstagram /></i></a>
-                <a href=""><i><FaLinkedin /></i></a>
+                <a href="#"><i><FaFacebookF /></i></a>
+                <a href="#"><i><FaYoutube /></i></a>
+                <a href="#"><i><FaTwitter /></i></a>
+                <a href="#"><i><FaInstagram /></i></a>
+                <a href="#"><i><FaLinkedin /></i></a>
 
             </div>
         </footer>

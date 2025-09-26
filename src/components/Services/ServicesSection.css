@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px 50px;
+    gap: 25px;
 }
 
 .s-1 {
@@ -53,11 +53,11 @@
 
 /* Services grid */
 .service-grid {
-    height: 402px;
-    width: 283px;
+    height: 400px;
+    width: 22%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     border: none;
     border-radius: 10px;
     display: flex;
@@ -82,4 +82,45 @@
 
 
 
+/* Media Queries Css Started Here */
 
+/* Media Query for 499px to 768px Devices */
+@media (min-width: 499px) and (max-width: 768px) {
+    .service-grid{
+        width: 47%;
+        height: 200px;
+    }
+
+    .service-grid h4{
+        font-size: 18px;
+    }
+}
+
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .service-grid{
+        /* width: 46%; */
+        height: 400px;
+    }
+
+    .service-grid h4{
+        font-size: 24px;
+    }
+}
+
+/* Media Query for 1024px to 1280px Devices */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .service-grid{
+        width: 30%;
+    }
+    .service-grid h4{
+        font-size: 20px;
+    }
+}
+
+/* Media Query for 1280px to 1440px Devices */
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .service-grid h4{
+        font-size: 22px;
+    }
+}

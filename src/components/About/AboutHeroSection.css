@@ -79,9 +79,9 @@
     justify-content: center;
 }
 
-.work-para {
+.ab-work-para-wrap {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
@@ -90,19 +90,19 @@
     margin-bottom: 60px;
 }
 
-.title {
+.ab-work-title {
     width: 49%;
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-.title h2 {
+.ab-work-title h2 {
     font-weight: 600;
     font-size: 60px;
 }
 
-.para {
+.ab-work-para {
     width: 49%;
     display: flex;
     flex-direction: column;
@@ -118,25 +118,28 @@
 }
 
 .image{
+    width: 50%;
+    height: 500px;
+    
+}
+
+.image img{
+    max-width: 100%;
     width: 500px;
     height: 500px;
 }
 
-.image img{
-    width: 100%;
-    height: 100%;
-}
-
 .counters{
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
 }
 
 .count-wrap{
-    width: 49%;
+    width: 46%;
     align-items: center;
     display: flex;
     flex-direction: column;

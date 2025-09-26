@@ -48,3 +48,34 @@ p {
     width: 100%;
 }
 
+
+
+
+
+/* Media Query for 499px to 768px Devices */
+@media (min-width: 499px) and (max-width: 768px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    }
+
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section-p1 {
+        padding: 40px;
+    }
+}
+
+/* Media Query for 1024px to 1280px Devices */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .section-p1 {
+        padding: 60px;
+    }
+}
+
+/* Media Query for 1280px to 1440px Devices */
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .section-p1 {
+        padding: 80px;
+    }
+}

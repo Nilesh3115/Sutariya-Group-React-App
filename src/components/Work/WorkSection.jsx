@@ -11,15 +11,15 @@ const WorkSection = () => {
         <section className="works section-p1 section-mw">
 
     {/* <!-- Section Heading with Title & Introductory Paragraph --> */}
-    <div className="work-para">
+    <div className="work-para-wrap">
 
         {/* <!-- Section Title --> */}
-        <div className="title">
-            <h2>Impact We <br/> Created</h2>
+        <div className="work-title">
+            <h2>Impact We Created</h2>
         </div>
 
         {/* <!-- Section Description & Call-to-Action Button --> */}
-        <div className="para">
+        <div className="work-para">
             <p>
                 At Kinetiq, we specialize in offering a full range of creative branding,
                 strategy, design, and development services tailored to bring your ideas to life.

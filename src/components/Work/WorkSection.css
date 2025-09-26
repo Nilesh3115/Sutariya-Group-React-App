@@ -8,9 +8,9 @@
     justify-content: center;
 }
 
-.work-para {
+.work-para-wrap {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
@@ -19,19 +19,20 @@
     margin-bottom: 60px;
 }
 
-.title {
+.work-title {
     width: 49%;
     display: flex;
     align-items: center;
     justify-content: start;
+    padding-right: 150px;
 }
 
-.title h2 {
+.work-title h2 {
     font-weight: 600;
     font-size: 60px;
 }
 
-.para {
+.work-para {
     width: 49%;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@
 
 .image-cards {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 100%;
@@ -177,4 +178,99 @@
 
 
 
+
+
+
+
+
+/* Media Queries Css Started Here */
+
+/* Media Query for 499px to 768px Devices */
+@media (min-width: 499px) and (max-width: 768px) {
+    .work-para {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .work-title h2{
+        font-size: 36px;
+    }
+
+    .work-title {
+        width: 100%;
+        padding: 0;
+    }
+
+    .work-para {
+        width: 100%;
+    }
+
+    .work-para-wrap {
+        gap: 10px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .txt-wrap h3{
+        font-size: 21px;
+    }
+
+}
+
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .work-para {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .work-title {
+        width: 100%;
+    }
+
+    .work-para {
+        width: 100%;
+    }
+
+    .card {
+        width: 47%;
+    }
+
+    .work-title h2 {
+        font-size: 45px;
+    }
+
+    .work-para-wrap {
+        gap: 10px;
+    }
+
+    .txt-wrap h3 {
+        font-size: 25px;
+    }
+
+}
+
+/* Media Query for 1024px to 1280px Devices */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .card {
+        width: 48%;
+    }
+
+    .work-title h2 {
+        font-size: 55px;
+    }
+
+    .txt-wrap h3 {
+        font-size: 29px;
+    }
+}
+
+/* Media Query for 1280px to 1440px Devices */
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .card {
+        width: 48%;
+    }
+}
 
