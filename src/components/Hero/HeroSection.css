@@ -68,7 +68,7 @@
 @media (max-width: 575px) {
     .hero-content h1{
         font-size: 28px;
-        line-height: 40px;
+        line-height: 34px;
         text-align: start;
     }
 
@@ -80,10 +80,12 @@
     .hero-content{
         justify-content: start;
         align-items: start;
+        gap: 15px;
     }
 
     .btn{
         font-size: 14px;
+        margin: 10px 0;
     }
 }
 /* Media Query for 576px to 768px Devices */
