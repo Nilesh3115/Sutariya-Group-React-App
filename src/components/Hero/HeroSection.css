@@ -19,6 +19,10 @@
 }
 
 .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
     z-index: 1;
     color: white;
@@ -63,8 +67,23 @@
 /* Media Query for 576px to 768px Devices */
 @media (max-width: 575px) {
     .hero-content h1{
-        font-size: 40px;
+        font-size: 28px;
         line-height: 40px;
+        text-align: start;
+    }
+
+    .hero-content p{
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .hero-content{
+        justify-content: start;
+        align-items: start;
+    }
+
+    .btn{
+        font-size: 14px;
     }
 }
 /* Media Query for 576px to 768px Devices */
