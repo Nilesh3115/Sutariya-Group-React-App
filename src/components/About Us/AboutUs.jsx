@@ -16,7 +16,7 @@ const AboutUs = () => {
 
             <div className="image-counter">
                 <div className="image">
-                    <img src="./images/68767a21fe51d132a838140b_round_tube.png" alt="" />
+                    <img src="./images/68767a21fe51d132a838140b_round_tube.png" loading="lazy" alt="" />
                 </div>
 
                 <div className="counters">
@@ -44,19 +44,19 @@ const AboutUs = () => {
 
             <div className="logo-images">
                 <div className="images">
-                <img src="./images/logo1.svg" alt="" />
+                <img src="./images/logo1.svg" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo2.svg" alt="" />
+                <img src="./images/logo2.svg" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo3.svg" alt="" />
+                <img src="./images/logo3.svg" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo4.svg" alt="" />
+                <img src="./images/logo4.svg" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo5.svg" alt="" />
+                <img src="./images/logo5.svg" loading="lazy" alt="" />
                 </div>
             </div>
 

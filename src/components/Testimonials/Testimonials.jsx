@@ -43,7 +43,7 @@ const Testimonials = () => {
             <h2>Worldwide Trust Built <br /> on Excellence</h2>
             <div className="testimonial-content-img">
                 <div className="test-left">
-                    <img src="./images/68767a21fe51d132a838140f_testimony-image-1.webp" alt="" />
+                    <img src="./images/68767a21fe51d132a838140f_testimony-image-1.webp" loading="lazy" alt="" />
                 </div>
 
 

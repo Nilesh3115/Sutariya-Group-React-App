@@ -37,7 +37,7 @@ const WorkSection = () => {
         <div className="card">
             {/* <!-- Project Image --> */}
             <div className="card-img">
-                <img src="/images/Work-section-1.avif" alt="UI/UX Design Project - Wayflyer Dashboard"/>
+                <img src="/images/Work-section-1.avif" loading="lazy" alt="UI/UX Design Project - Wayflyer Dashboard"/>
             </div>
             {/* <!-- Text Content with Project Title & Category --> */}
             <div className="txt-wrap-icon">
@@ -56,7 +56,7 @@ const WorkSection = () => {
         {/* <!-- ===== Card 2: Branding & Logo Project ===== --> */}
         <div className="card">
             <div className="card-img">
-                <img src="/images/Work-section-2.avif" alt="Branding & Logo Project - Dynamotion"/>
+                <img src="/images/Work-section-2.avif" loading="lazy" alt="Branding & Logo Project - Dynamotion"/>
             </div>
             <div className="txt-wrap-icon">
                 <div className="txt-wrap">
@@ -72,7 +72,7 @@ const WorkSection = () => {
         {/* <!-- ===== Card 3: Digital Branding Project ===== --> */}
         <div className="card">
             <div className="card-img">
-                <img src="/images/Work-section-3.avif" alt="Digital Branding Project - Solaria Marketing"/>
+                <img src="/images/Work-section-3.avif" loading="lazy" alt="Digital Branding Project - Solaria Marketing"/>
             </div>
             <div className="txt-wrap-icon">
                 <div className="txt-wrap">
@@ -88,7 +88,7 @@ const WorkSection = () => {
         {/* <!-- ===== Card 4: Mobile App Design Project ===== --> */}
         <div className="card">
             <div className="card-img">
-                <img src="/images/Work-section-4.avif" alt="Mobile App Design Project - Elevate Fitness App"/>
+                <img src="/images/Work-section-4.avif" loading="lazy" alt="Mobile App Design Project - Elevate Fitness App"/>
             </div>
             <div className="txt-wrap-icon">
                 <div className="txt-wrap">

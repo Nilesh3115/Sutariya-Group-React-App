@@ -14,7 +14,7 @@ export const Footers = () => {
     return (
         <footer className="section-m1 section-mw section-p1">
             <NavLink to="/">
-                <img src="/images/logo.png" alt="" />
+                <img src="/images/logo.png" loading="lazy" alt="" />
             </NavLink>
             <div className="copyright">
                 <p>&copy;2025 Sutariya Group Services Limited</p>
