@@ -42,6 +42,24 @@ const AboutUs = () => {
                 </div>
             </div>
 
+            <div className="logo-images">
+                <div className="images">
+                <img src="./images/logo1.svg" alt="" />
+                </div>
+                <div className="images">
+                <img src="./images/logo2.svg" alt="" />
+                </div>
+                <div className="images">
+                <img src="./images/logo3.svg" alt="" />
+                </div>
+                <div className="images">
+                <img src="./images/logo4.svg" alt="" />
+                </div>
+                <div className="images">
+                <img src="./images/logo5.svg" alt="" />
+                </div>
+            </div>
+
         </section>
 
     );
