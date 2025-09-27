@@ -109,15 +109,59 @@ q {
 
 /* Media Queries Css Started Here */
 
-/* Media Query for 499px to 768px Devices */
-@media (min-width: 390px) and (max-width: 768px) {
+/* Media Query for 576px to 768px Devices */
+@media (max-width: 575px) {
+    .testimonials h2 {
+        font-size: 35px;
+        line-height: 39px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-content-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .test-left,
+    .slideshow-container {
+        width: 100%;
+    }
+
+    .mySlides {
+        padding: 10px;
+    }
+
+    q {
+        font-size: 16px;
+    }
+
+    .prev,.next{
+        padding: 10px;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .prev{
+        right: 40px;
+    }
+
+    .test-left{
+        height: 300px;
+    }
+}
+
+
+
+
+/* Media Query for 576px to 768px Devices */
+@media (min-width: 576px) and (max-width: 768px) {
     .testimonial-content-img {
         flex-direction: column;
         gap: 10px;
     }
 
     .mySlides {
-        padding: 10px;
+        padding: 10px 100px 10px 10px;
     }
 
     .test-left {
@@ -128,6 +172,7 @@ q {
         font-size: 36px;
         margin-bottom: 20px;
         text-align: start;
+        line-height: 40px;
     }
 
     q {
@@ -138,7 +183,8 @@ q {
         width: 100%;
     }
 
-    .prev,.next{
+    .prev,
+    .next {
         font-size: 10px;
     }
 }

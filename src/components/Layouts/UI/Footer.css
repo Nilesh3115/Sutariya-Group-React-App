@@ -33,8 +33,7 @@ footer img {
 
 /* Media Queries Css Started Here */
 
-/* Media Query for 499px to 768px Devices */
-/* @media (min-width: 390px) and (max-width: 768px) { */
+/* Media Query for Maximum 768px Devices */
 @media (max-width: 768px) {
     footer {
         flex-direction: column;

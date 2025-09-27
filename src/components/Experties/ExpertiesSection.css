@@ -107,11 +107,37 @@
 
 /* Media Queries Css Started Here */
 
-/* Media Query for 499px to 768px Devices */
-@media (min-width: 390px) and (max-width: 768px) {
+/* Media Query for 576px to 768px Devices */
+@media (max-width: 575px) {
+    .expertise-section h2 {
+        font-size: 32px;
+        line-height: 39px;
+        margin: 0;  
+    }
+
+    .accordion-header {
+        font-size: 24px;
+    }
+
+    .arroww{
+        font-size: 35px;
+    }
+
+    .accordion-item:hover .hover-img {
+        display: none;
+    }
+
+    .accordion-item.active .accordion-content{
+        padding: 10px;
+    }
+}
+
+/* Media Query for 576px to 768px Devices */
+@media (min-width: 576px) and (max-width: 768px) {
     .expertise-section h2 {
         font-size: 36px;
         margin-bottom: 0;
+        line-height: 40px;
     }
 
     .accordion-header {

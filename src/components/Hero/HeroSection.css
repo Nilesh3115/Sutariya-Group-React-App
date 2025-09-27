@@ -29,6 +29,7 @@
 }
 
 .btn {
+    margin: 20px 0;
     display: inline-block;
     background: #065b69;
     color: white;
@@ -59,8 +60,15 @@
 
 /* Media Queries Css Started Here */
 
-/* Media Query for 499px to 768px Devices */
-@media (min-width: 390px) and (max-width: 768px) {
+/* Media Query for 576px to 768px Devices */
+@media (max-width: 575px) {
+    .hero-content h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+/* Media Query for 576px to 768px Devices */
+@media (min-width: 576px) and (max-width: 768px) {
     .hero-content h1{
         font-size: 45px;
         line-height: 46px;
