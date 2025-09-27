@@ -108,8 +108,7 @@
 /* Media Queries Css Started Here */
 
 /* Media Query for 499px to 768px Devices */
-/* @media (min-width: 499px) and (max-width: 768px) { */
-@media (max-width: 768px) {
+@media (min-width: 399px) and (max-width: 768px) {
     .expertise-section h2 {
         font-size: 36px;
         margin-bottom: 0;
