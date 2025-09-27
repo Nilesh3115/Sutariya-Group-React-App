@@ -186,7 +186,8 @@
 /* Media Queries Css Started Here */
 
 /* Media Query for 499px to 768px Devices */
-@media (min-width: 499px) and (max-width: 768px) {
+/* @media (min-width: 499px) and (max-width: 768px) { */
+@media (max-width: 768px) {
     .work-para {
         flex-direction: column;
         align-items: start;
