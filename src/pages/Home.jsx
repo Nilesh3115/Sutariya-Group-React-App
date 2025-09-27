@@ -1,4 +1,5 @@
 
+import AboutUs from "../components/About Us/AboutUs";
 import CollabSection from "../components/Collab/CollabSection";
 import ExpertiseSection from "../components/Experties/ExpertiesSection";
 import HeroSection from "../components/Hero/HeroSection";
@@ -11,7 +12,9 @@ export function Home() {
         <>
             <HeroSection />
 
-            <ServicesSection />
+            <AboutUs />
+
+            {/* <ServicesSection /> */}
 
             <WorkSection />
 

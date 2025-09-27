@@ -36,8 +36,8 @@
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 60%;
-    width: 100%;
+    max-width: 100%;
+    width: 60%;
 }
 
 /* Slides */
@@ -107,5 +107,63 @@ q {
 
 
 
+/* Media Queries Css Started Here */
 
+/* Media Query for 499px to 768px Devices */
+@media (min-width: 499px) and (max-width: 768px) {
+    .testimonial-content-img {
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .mySlides {
+        padding: 10px;
+    }
+
+    .test-left {
+        width: 100%;
+    }
+
+    .testimonials h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    q {
+        font-size: 20px;
+    }
+
+    .slideshow-container {
+        width: 100%;
+    }
+
+    .prev,.next{
+        font-size: 10px;
+    }
+}
+
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .testimonials h2 {
+        font-size: 45px;
+    }
+
+    q {
+        font-size: 24px;
+    }
+
+    .mySlides {
+        padding: 10px;
+    }
+}
+
+/* Media Query for 1024px to 1280px Devices */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .testimonials h2 {
+        font-size: 54px;
+    }
+}
+
+/* Media Query for 1280px to 1440px Devices */
+@media (min-width: 1280px) and (max-width: 1440px) {}

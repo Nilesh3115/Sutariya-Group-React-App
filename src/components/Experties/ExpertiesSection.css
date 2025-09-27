@@ -35,7 +35,7 @@
 .accordion-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     padding: 25px 15px;
     font-size: 40px;
     font-weight: bold;
@@ -105,5 +105,67 @@
 
 
 
+/* Media Queries Css Started Here */
+
+/* Media Query for 499px to 768px Devices */
+@media (min-width: 499px) and (max-width: 768px) {
+    .expertise-section h2 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .accordion-header {
+        font-size: 26px;
+    }
+
+    .arroww {
+        font-size: 50px;
+    }
+
+    .accordion-item.active .accordion-content {
+        padding: 20px;
+    }
+
+    .accordion-item:hover .hover-img {
+        display: none;
+    }
+}
+
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .accordion-item:hover .hover-img {
+        display: none;
+    }
+
+    .expertise-section h2 {
+        font-size: 45px;
+    }
+
+    .accordion-header {
+        font-size: 32px;
+    }
+
+    .accordion-item.active .accordion-content {
+        padding: 10px 40px;
+    }
+
+    .arroww {
+        font-size: 55px;
+    }
 
 
+}
+
+/* Media Query for 1024px to 1280px Devices */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .expertise-section h2 {
+        font-size: 54px;
+    }
+
+    .accordion-header {
+        font-size: 38px;
+    }
+}
+
+/* Media Query for 1280px to 1440px Devices */
+@media (min-width: 1280px) and (max-width: 1440px) {}
