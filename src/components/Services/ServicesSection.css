@@ -85,7 +85,7 @@
 /* Media Queries Css Started Here */
 
 /* Media Query for 499px to 768px Devices */
-@media (min-width: 399px) and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
     .service-grid{
         width: 47%;
         height: 200px;

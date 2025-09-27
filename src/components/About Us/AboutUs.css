@@ -17,7 +17,7 @@
     width: 100%;
     max-width: 100%;
     gap: 25px 100px;
-    margin-bottom: 60px;
+    margin-bottom: 60px;    
 }
 
 .ab-work-title {
@@ -94,7 +94,7 @@
 
 /* Media Queries Css Started Here */
 
-@media (min-width: 399px) and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
     .ab-work-title h2{
         font-size: 36px;
     }
