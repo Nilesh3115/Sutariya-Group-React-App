@@ -1,14 +1,14 @@
-.why-ch-us{
+.why-ch-us {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px 40px;
+    gap: 30px 40px;
     background-color: black;
     flex-wrap: wrap;
     color: white;
 }
 
-.icon-boxes{
+.icon-boxes {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -16,7 +16,7 @@
     gap: 30px 30px;
 }
 
-.icon-box{
+.icon-box {
     display: flex;
     flex-direction: column;
     width: 31%;
@@ -25,7 +25,7 @@
     gap: 20px 20px;
 }
 
-.box-content{
+.box-content {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -33,21 +33,21 @@
     gap: 10px;
 }
 
-.box-content p{
+.box-content p {
     font-weight: 300;
 }
 
-.icon{
+.icon {
     font-size: 50px;
     color: #065b69;
 }
 
-.why-img{
+.why-img {
     width: 48%;
     height: auto;
 }
 
-.why-img img{
+.why-img img {
     max-width: 100%;
     width: 100%;
     height: auto;
@@ -55,5 +55,89 @@
 }
 
 .why-img img:hover {
-  transform: translateY(-10px); /* moves image upward */
+    transform: translateY(-10px);
+    /* moves image upward */
 }
+
+
+
+
+/* Media Queries Css Started Here */
+
+/* Media Query for 576px to 768px Devices */
+@media (max-width: 575px) {
+    .why-img {
+        width: 100%;
+    }
+
+    .heading-sub {
+        width: 100%;
+    }
+
+    .heading-sub h2 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .icon-box{
+        width: 100%;
+    }
+}
+
+/* Media Query for 576px to 768px Devices */
+@media (min-width: 576px) and (max-width: 768px) {
+    .why-img {
+        width: 46%;
+    }
+
+    .heading-sub {
+        width: 46%;
+    }
+
+    .heading-sub h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .icon-box{
+        width: 47%;
+    }
+}
+
+/* Media Query for 768px to 1024px Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .why-img {
+        width: 47%;
+    }
+
+    .heading-sub {
+        width: 47%;
+    }
+
+    .heading-sub h2 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .icon-box{
+        width: 30%;
+    }
+}
+
+/* Media Query for 1024px to 1280px Devices */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .why-img {
+        width: 47%;
+    }
+
+    .heading-sub {
+        width: 47%;
+    }
+
+    .heading-sub h2 {
+        font-size: 54px;
+    }
+}
+
+/* Media Query for 1280px to 1440px Devices */
+@media (min-width: 1280px) and (max-width: 1440px) {}

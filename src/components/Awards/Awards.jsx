@@ -3,14 +3,39 @@ import Slider from "react-slick";
 
 const Awards = () => {
   const settings = {
-    dots: false,          // navigation dots
-    infinite: true,      // infinite loop
-    speed: 500,          // transition speed
-    slidesToShow: 3,     // how many images visible
-    slidesToScroll: 1,   // how many images to scroll
-    autoplay: true,      // auto play
-    autoplaySpeed: 3000, // 3 seconds
-    arrows: true         // show next/prev arrows
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,   // default for desktop
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 1024,  // large tablets & small laptops
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 768,  // tablets
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,  // mobile
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false   // hide arrows on mobile
+        }
+      }
+    ]
   };
 
   return (
