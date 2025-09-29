@@ -1,0 +1,23 @@
+.awards{
+    background-color: black;
+    color: white;
+}
+
+.awards-img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.awards{
+    gap: 20px;
+}
+
+.slider{
+    margin-top: 20px;
+}
+
+.awards-img img{
+    width: 100%;
+    height: 100%;
+}

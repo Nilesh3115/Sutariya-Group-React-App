@@ -1,16 +1,19 @@
-import AboutUs from "../components/About Us/AboutUs";
 import AboutHeroSection from "../components/About/AboutHeroSection";
-import ServicesSection from "../components/Services/ServicesSection";
+import Awards from "../components/Awards/Awards";
 import Testimonials from "../components/Testimonials/Testimonials";
+import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
+import WhyChUs from "../components/WhyChUs/WhyChUs";
 
 export function About() {
     return (
         <>
             <AboutHeroSection />
 
-            <AboutUs />
+            <WhoWeAre />
 
-            <ServicesSection />
+            <WhyChUs />
+
+            <Awards/>
 
             <Testimonials />
         </>

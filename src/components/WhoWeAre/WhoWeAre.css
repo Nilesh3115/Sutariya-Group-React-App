@@ -1,0 +1,38 @@
+
+
+.whoweare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 40px;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.heading-sub{
+    width: 48%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px 20px;
+}
+
+
+.who-img{
+    width: 48%;
+    height: auto;
+}
+
+.who-img img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.who-img img:hover {
+  transform: translateY(-10px); /* moves image upward */
+}
+
