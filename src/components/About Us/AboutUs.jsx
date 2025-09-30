@@ -44,19 +44,19 @@ const AboutUs = () => {
 
             <div className="logo-images">
                 <div className="images">
-                <img src="./images/logo1.svg" loading="lazy" alt="" />
+                <img src="./images/IT Scholars.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo2.svg" loading="lazy" alt="" />
+                <img src="./images/Sutariya Infotech.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo3.svg" loading="lazy" alt="" />
+                <img src="./images/Digi Invitation.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo4.svg" loading="lazy" alt="" />
+                <img src="./images/Uniprint.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/logo5.svg" loading="lazy" alt="" />
+                <img src="./images/Marketing 365.png" loading="lazy" alt="" />
                 </div>
             </div>
 
