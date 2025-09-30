@@ -130,6 +130,10 @@
     .accordion-item.active .accordion-content{
         padding: 10px;
     }
+
+    .item-left{
+        gap: 20px 30px;
+    }
 }
 
 /* Media Query for 576px to 768px Devices */
