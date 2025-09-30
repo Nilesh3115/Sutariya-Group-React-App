@@ -6,8 +6,8 @@
 }
 
 .testimonials h2 {
-    font-size: 60px;
-    font-weight: 600;
+    /* font-size: 60px;
+    font-weight: 600; */
     margin: 0px auto 60px auto;
     text-align: center;
 }
@@ -92,11 +92,11 @@
 } */
 
 /* Add an italic font style to all quotes */
-q {
+/* q {
     font-style: italic;
     font-size: 30px;
     font-weight: 500;
-}
+} */
 
 /* Add a blue color to the author */
 .author {
@@ -112,8 +112,8 @@ q {
 /* Media Query for 576px to 768px Devices */
 @media (max-width: 575px) {
     .testimonials h2 {
-        font-size: 35px;
-        line-height: 39px;
+        /* font-size: 35px;
+        line-height: 39px; */
         margin-bottom: 20px;
     }
 
@@ -131,9 +131,9 @@ q {
         padding: 10px;
     }
 
-    q {
+    /* q {
         font-size: 16px;
-    }
+    } */
 
     .prev,.next{
         padding: 10px;
@@ -169,15 +169,15 @@ q {
     }
 
     .testimonials h2 {
-        font-size: 36px;
+        /* font-size: 36px;
+        line-height: 40px; */
         margin-bottom: 20px;
         text-align: start;
-        line-height: 40px;
     }
 
-    q {
+    /* q {
         font-size: 20px;
-    }
+    } */
 
     .slideshow-container {
         width: 100%;
@@ -191,13 +191,13 @@ q {
 
 /* Media Query for 768px to 1024px Devices */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .testimonials h2 {
+    /* .testimonials h2 {
         font-size: 45px;
     }
 
     q {
         font-size: 24px;
-    }
+    } */
 
     .mySlides {
         padding: 10px;
@@ -206,9 +206,9 @@ q {
 
 /* Media Query for 1024px to 1280px Devices */
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .testimonials h2 {
+    /* .testimonials h2 {
         font-size: 54px;
-    }
+    } */
 }
 
 /* Media Query for 1280px to 1440px Devices */

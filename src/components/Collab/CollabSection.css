@@ -7,10 +7,10 @@
     justify-content: space-between;
 }
 
-.collab-section h2 {
+/* .collab-section h2 {
     font-size: 76px;
     line-height: 83.6px;
-}
+} */
 
 .arrow-i {
     border-radius: 50%;
@@ -49,8 +49,8 @@
 /* Media Query for 576px to 768px Devices */
 @media (max-width: 575px) {
     .collab-section h2 {
-        font-size: 32px;
-        line-height: 39px;
+        /* font-size: 32px;
+        line-height: 39px; */
         margin-bottom: 20px;
     }
 
@@ -66,15 +66,15 @@
 
 /* Media Query for 576px to 768px Devices */
 @media (min-width: 576px) and (max-width: 768px) {
-    .collab-section h2 {
+    /* .collab-section h2 {
         font-size: 45px;
         line-height: 53.2px;
-    }
+    } */
 }
 
 /* Media Query for 768px to 1024px Devices */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .collab-section h2 {
+    /* .collab-section h2 {
         font-size: 60px;
-    }
+    } */
 }

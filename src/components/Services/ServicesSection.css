@@ -7,16 +7,16 @@
 }
 
 .services h3 {
-    font-weight: 400;
-    font-size: 16px;
+    /* font-weight: 400;
+    font-size: 16px; */
     margin-bottom: 32px;
 }
 
 .services h2 {
     color: white;
     margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 46px;
+    /* font-weight: 500;
+    font-size: 46px; */
 }
 
 /* Services Grids */
@@ -70,8 +70,8 @@
 
 .service-grid h4 {
     margin-top: 10px;
-    font-size: 28px;
-    font-weight: 500;
+    /* font-size: 28px;
+    font-weight: 500; */
 }
 
 .service-grid:hover {
@@ -91,9 +91,9 @@
         height: 200px;
     }
 
-    .service-grid h4{
+    /* .service-grid h4{
         font-size: 18px;
-    }
+    } */
 }
 
 /* Media Query for 768px to 1024px Devices */
@@ -103,9 +103,9 @@
         height: 400px;
     }
 
-    .service-grid h4{
+    /* .service-grid h4{
         font-size: 24px;
-    }
+    } */
 }
 
 /* Media Query for 1024px to 1280px Devices */
@@ -113,14 +113,14 @@
     .service-grid{
         width: 30%;
     }
-    .service-grid h4{
+    /* .service-grid h4{
         font-size: 20px;
-    }
+    } */
 }
 
 /* Media Query for 1280px to 1440px Devices */
 @media (min-width: 1280px) and (max-width: 1440px) {
-    .service-grid h4{
+    /* .service-grid h4{
         font-size: 22px;
-    }
+    } */
 }

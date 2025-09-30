@@ -10,38 +10,46 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 54px;
     line-height: 64px;
 }
 
 h2 {
-    font-size: 46px;
+    font-size: 50px;
+    font-weight: 500;
     line-height: 54px;
-    color: white;
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: normal;
 }
 
 h4 {
-    font-size: 20px;
-    color: white;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-h6 {
+span {
+    font-size: 40px;
     font-weight: 700;
-    font-size: 12px;
 }
 
 p {
     font-size: 16px;
-    /* margin: 15px 0 20px 0; */
+}
+
+q {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .section-p1 {
     padding: 80px 150px;
 }
 
-.section-m1 {
-    margin: 40px 0;
-}
 
 .section-mw {
     max-width: 1600px;
@@ -58,12 +66,52 @@ p {
     .section-p1 {
         padding: 40px 20px;
     }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 28px;
+    }
+
+    q {
+        font-size: 18px;
+    }
 }
 
 /* Media Query for 576px to 768px Devices */
 @media (min-width: 576px) and (max-width: 768px) {
     .section-p1 {
         padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 32px;
+    }
+
+    q {
+        font-size: 20px;
     }
 }
 
@@ -72,12 +120,52 @@ p {
     .section-p1 {
         padding: 60px 40px;
     }
+
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    span {
+        font-size: 34px;
+    }
+
+    q {
+        font-size: 22px;
+    }
 }
 
 /* Media Query for 1024px to 1280px Devices */
 @media (min-width: 1024px) and (max-width: 1280px) {
     .section-p1 {
         padding: 80px 60px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 46px;
+    }
+
+    h3 {
+        font-size: 34px;
+    }
+
+    span {
+        font-size: 36px;
+    }
+
+    q {
+        font-size: 24px;
     }
 }
 
@@ -86,4 +174,25 @@ p {
     .section-p1 {
         padding: 80px;
     }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    span {
+        font-size: 38px;
+    }
+
+    q {
+        font-size: 28px;
+    }
+
 }

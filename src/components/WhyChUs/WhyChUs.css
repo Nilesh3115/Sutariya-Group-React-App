@@ -74,10 +74,10 @@
         width: 100%;
     }
 
-    .heading-sub h2 {
+    /* .heading-sub h2 {
         font-size: 32px;
         line-height: 39px;
-    }
+    } */
 
     .icon-box{
         width: 100%;
@@ -94,10 +94,10 @@
         width: 46%;
     }
 
-    .heading-sub h2 {
+    /* .heading-sub h2 {
         font-size: 36px;
         line-height: 40px;
-    }
+    } */
 
     .icon-box{
         width: 47%;
@@ -114,10 +114,10 @@
         width: 47%;
     }
 
-    .heading-sub h2 {
+    /* .heading-sub h2 {
         font-size: 45px;
         line-height: 40px;
-    }
+    } */
 
     .icon-box{
         width: 30%;
@@ -134,9 +134,9 @@
         width: 47%;
     }
 
-    .heading-sub h2 {
+    /* .heading-sub h2 {
         font-size: 54px;
-    }
+    } */
 }
 
 /* Media Query for 1280px to 1440px Devices */
