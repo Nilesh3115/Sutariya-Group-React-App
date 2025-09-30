@@ -4,7 +4,7 @@ const AboutUs = () => {
     return (
         <section className="ab-works section-p1 section-mw">
 
-            <div className="ab-work-para-wrap">
+            <div className="ab-work-para-wrap fade-in-up">
                 {/* <!-- Section Title --> */}
                 <div className="ab-work-title">
                     <h2>We make your<br />bussiness stand out</h2>
@@ -20,22 +20,22 @@ const AboutUs = () => {
                 </div>
 
                 <div className="counters">
-                    <div className="count-wrap">
+                    <div className="count-wrap fade-in-up">
                         <h3>329+</h3>
                         <p>Project Complete</p>
                     </div>
 
-                    <div className="count-wrap">
+                    <div className="count-wrap fade-in-up">
                         <h3>99%</h3>
                         <p>Satisfied Clients</p>
                     </div>
 
-                    <div className="count-wrap">
+                    <div className="count-wrap fade-in-up">
                         <h3>6240+</h3>
                         <p>Hours of work</p>
                     </div>
 
-                    <div className="count-wrap">
+                    <div className="count-wrap fade-in-up">
                         <h3>05+</h3>
                         <p>Years Experience</p>
                     </div>

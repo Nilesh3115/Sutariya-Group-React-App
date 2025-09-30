@@ -5,24 +5,21 @@ import { useState } from "react";
 const testimonials = [
     {
         id: 1,
-        name: "- Ernest Hemingway",
-        // quote: "CEO, CompanyX",
-        text: "Their words are a testament to our commitment to excellence, creativity, and customer-centric approach. We're honored to have been a part of their projects and look forward to the opportunity of working with you.",
-        // image: "https://via.placeholder.com/80",
+        name: "— Rahul Mehta",
+        quote: "CEO, Mehta Industries",
+        text: "Sutariya Group provided innovative solutions and expert guidance, exceeding expectations. Their professionalism and commitment to client success are truly remarkable."
     },
     {
         id: 2,
-        name: "- Ernest Hemingway",
-        // quote: "CEO, CompanyX",
-        text: "Working with Kinetiq was an absolute game-changer for our business. Their team brought creativity, professionalism, and innovation to every step of the project. Our brand has never looked better!",
-        // image: "https://via.placeholder.com/80",
+        name: "— Priya Sharma",
+        quote: "CEO, Sharma Enterprises",
+        text: "Working with Sutariya Group was seamless. Their team is skilled, responsive, and dedicated to delivering results that drive business growth and long-term value."
     },
     {
         id: 3,
-        name: "- Ernest Hemingway",
-        // quote: "CEO, CompanyX",
-        text: "Kinetiq took our ideas and elevated them beyond what we imagined. The team’s passion and dedication were evident in every interaction, and the final deliverables were outstanding.",
-        // image: "https://via.placeholder.com/80",
+        name: "— Amit Desai",
+        quote: "CEO, Desai Logistics",
+        text: "The expertise and client-focused approach of Sutariya Group helped us achieve our goals efficiently. They are a reliable partner for sustainable success."
     },
 ];
 
@@ -40,8 +37,8 @@ const Testimonials = () => {
     return (
 
         <section className="testimonials section-p1 section-mw">
-            <h2>Worldwide Trust Built <br /> on Excellence</h2>
-            <div className="testimonial-content-img">
+            <h2 className="fade-in-up">Worldwide Trust Built <br /> on Excellence</h2>
+            <div className="testimonial-content-img fade-in-up">
                 <div className="test-left">
                     <img src="./images/68767a21fe51d132a838140f_testimony-image-1.webp" loading="lazy" alt="" />
                 </div>
@@ -50,13 +47,16 @@ const Testimonials = () => {
                 <div className="slideshow-container">
                     <div className="mySlides">
                         <q>{testimonials[current].text}</q>
-                        <p className="author">{testimonials[current].name}</p>
+                        {/* Controls */}
+                        <a className="prev" onClick={prevSlide}>&#10094;</a>
+                        <a className="next" onClick={nextSlide}>&#10095;</a>
                     </div>
-
-                    {/* Controls */}
-                    <a className="prev" onClick={prevSlide}>&#10094;</a>
-                    <a className="next" onClick={nextSlide}>&#10095;</a>
+                    <div className="autor-info">
+                        <p className="author">{testimonials[current].name}</p>
+                        <p className="author-post">{testimonials[current].quote}</p>
+                    </div>
                 </div>
+
             </div>
         </section>
     );

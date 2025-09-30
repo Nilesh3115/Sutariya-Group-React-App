@@ -12,8 +12,8 @@ const WhyChUs = () => {
 
             <div className="heading-sub">
                 <p>WHY CHOOSE US</p>
-                <h2>Reasons to Choose Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates deserunt repudiandae consequuntur iusto culpa optio excepturi ullam dicta facilis? Sapiente, nihil? Magni rem repellat, illum necessitatibus dolorem cupiditate libero. Possimus ipsum, voluptatibus repellendus non sapiente tempora earum unde? Doloremque nihil velit laborum eum pariatur nam nostrum ipsum aliquid illo ratione!</p>
+                <h2>Excellence You Can Trust</h2>
+                <p>At Suatriya Group, we combine innovation, expertise, and integrity to deliver exceptional solutions across industries. Our commitment to quality, sustainable growth, and ethical practices ensures strong partnerships, empowers communities, and creates lasting value, making us a trusted choice for clients and stakeholders seeking reliable, forward-thinking solutions.</p>
             </div>
 
             <div className="why-img">
@@ -26,7 +26,7 @@ const WhyChUs = () => {
                     <div className="icon"><GrAchievement /></div>
                     <div className="box-content">
                         <h3>Experties</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid, corporis sed praesentium aliquam ducimus veritatis ullam explicabo? Exercitationem quisquam cum harum distinctio minima voluptatum illum dolores alias rem cumque.</p>
+                        <p>With years of diversified experience, we bring deep industry knowledge and proven capabilities to every project. Our expertise ensures efficient solutions, reliable outcomes, and value-driven strategies tailored to client needs.</p>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ const WhyChUs = () => {
                     <div className="icon"><TbBulb /></div>
                     <div className="box-content">
                         <h3>Innovation</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid, corporis sed praesentium aliquam ducimus veritatis ullam explicabo? Exercitationem quisquam cum harum distinctio minima voluptatum illum dolores alias rem cumque.</p>
+                        <p>We embrace new ideas, modern technologies, and forward-thinking strategies to deliver solutions that go beyond expectations. Innovation drives our growth, keeps us adaptable, and helps us shape a sustainable and progressive future.</p>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@ const WhyChUs = () => {
                     <div className="icon"><PiUserFocusBold /></div>
                     <div className="box-content">
                         <h3>Client Focus</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid, corporis sed praesentium aliquam ducimus veritatis ullam explicabo? Exercitationem quisquam cum harum distinctio minima voluptatum illum dolores alias rem cumque.</p>
+                        <p>Our clients are at the heart of everything we do. By understanding their goals and challenges, we deliver personalized solutions, long-term value, and trusted partnerships built on integrity, transparency, and shared success.</p>
                     </div>
                 </div>
             </div>

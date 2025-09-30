@@ -11,7 +11,7 @@ const WorkSection = () => {
         <section className="works section-p1 section-mw">
 
     {/* <!-- Section Heading with Title & Introductory Paragraph --> */}
-    <div className="work-para-wrap">
+    <div className="work-para-wrap fade-in-up">
 
         {/* <!-- Section Title --> */}
         <div className="work-title">
@@ -24,7 +24,7 @@ const WorkSection = () => {
                 At Kinetiq, we specialize in offering a full range of creative branding,
                 strategy, design, and development services tailored to bring your ideas to life.
             </p>
-            <button className="btn-s">
+            <button className="btn-s fade-in-up">
                 Get Started <i><GoArrowUpRight /></i>
             </button>
         </div>

@@ -7,12 +7,12 @@ const HeroSection = () => {
         <section className="hero section-mw">
             <video autoPlay muted loop playsInline className="hero-video" src="/images/3163534-uhd_3840_2160_30fps.mp4"></video>
             <div className="hero-content">
-                <h1>Empowering Businesses With End-to-End Solutions</h1>
+                <h1 className="fade-in-up">Empowering Businesses With End-to-End Solutions</h1>
                 <p>
                     Our multidisciplinary expertise spans creative design, advanced printing, and digital innovation — ensuring
                     <br />your business has everything it needs to lead in today’s market.
                 </p>
-                <a href="" className="btn">Get Started Today</a>
+                <a href="" className="btn fade-in-up">Get Started Today</a>
             </div>
         </section>
         // End of Hero Section

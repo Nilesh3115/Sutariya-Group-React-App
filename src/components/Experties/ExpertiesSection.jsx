@@ -49,11 +49,11 @@ const ExpertiseSection = () => {
 
   return (
     <section className="expertise-section section-p1 section-mw">
-      <h2>
+      <h2 className="fade-in-up">
         We Offer <br /> Expertise in
       </h2>
 
-      <ul className="accordion">
+      <ul className="accordion fade-in-up">
         {items.map((item, index) => (
           <li
             key={index}

@@ -15,17 +15,24 @@
 .testimonial-content-img {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
-    position: relative;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px 50px;
 }
 
 .test-left {
-    height: 450px;
-    width: 450px;
+    max-width: 100%;
+    height: auto;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .test-left img {
+    max-width: 100%;
+    max-height: 500px;
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -37,46 +44,47 @@
 /* Slideshow container */
 .slideshow-container {
     max-width: 100%;
-    width: 60%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px 20px;
 }
 
 /* Slides */
 .mySlides {
-    /* display: none; */
-    padding: 80px;
-    text-align: center;
+    text-align: start;
+    gap: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 10px 60px 10px;
 }
 
 
 
 /* Next & previous buttons */
-.prev {
+.prev,
+.next {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+    user-select: none;
     position: absolute;
     right: 60px;
-    bottom: 0;
-    margin-top: -142px;
-    padding: 16px;
-    color: white;
-    border: 1px solid;
-    border-radius: 50%;
-    font-size: 20px;
-    user-select: none;
+    bottom: 0px;
 }
 
 /* Position the "next button" to the right */
 .next {
-    cursor: pointer;
-    position: absolute;
     right: 0px;
-    bottom: 0px;
-    margin-top: -142px;
-    padding: 16px;
-    color: white;
-    font-size: 20px;
-    border: 1px solid;
-    border-radius: 50%;
-    user-select: none;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -100,8 +108,12 @@
 
 /* Add a blue color to the author */
 .author {
-    color: #065b69;
-    font-weight: 800;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.author-post {
     font-size: 16px;
 }
 
@@ -111,105 +123,72 @@
 
 /* Media Query for 576px to 768px Devices */
 @media (max-width: 575px) {
-    .testimonials h2 {
-        /* font-size: 35px;
-        line-height: 39px; */
-        margin-bottom: 20px;
-    }
-
-    .testimonial-content-img {
-        flex-direction: column;
-        gap: 20px;
-    }
-
     .test-left,
     .slideshow-container {
         width: 100%;
     }
 
-    .mySlides {
-        padding: 10px;
+    .testimonial-content-img{
+        gap: 10px;
+        flex-direction: column;
     }
 
-    /* q {
-        font-size: 16px;
-    } */
-
-    .prev,.next{
-        padding: 10px;
-        font-size: 10px;
-        margin: 0;
-    }
-
-    .prev{
-        right: 40px;
-    }
-
-    .test-left{
-        height: 300px;
+    .test-left img{
+        height: 400px;
     }
 }
 
-
-
-
 /* Media Query for 576px to 768px Devices */
 @media (min-width: 576px) and (max-width: 768px) {
-    .testimonial-content-img {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .mySlides {
-        padding: 10px 100px 10px 10px;
-    }
-
-    .test-left {
-        width: 100%;
-    }
-
-    .testimonials h2 {
-        /* font-size: 36px;
-        line-height: 40px; */
-        margin-bottom: 20px;
-        text-align: start;
-    }
-
-    /* q {
-        font-size: 20px;
-    } */
-
+    .test-left,
     .slideshow-container {
         width: 100%;
     }
 
-    .prev,
-    .next {
-        font-size: 10px;
+    .testimonial-content-img{
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .test-left img{
+        height: 400px;
     }
 }
 
 /* Media Query for 768px to 1024px Devices */
 @media (min-width: 768px) and (max-width: 1024px) {
-    /* .testimonials h2 {
-        font-size: 45px;
+
+    .test-left,
+    .slideshow-container {
+        width: 47%;
     }
 
-    q {
-        font-size: 24px;
-    } */
-
-    .mySlides {
-        padding: 10px;
+    .testimonial-content-img{
+        gap: 20px 20px;
     }
 }
 
 /* Media Query for 1024px to 1280px Devices */
 @media (min-width: 1024px) and (max-width: 1280px) {
-    /* .testimonials h2 {
-        font-size: 54px;
-    } */
+    .test-left,
+    .slideshow-container {
+        width: 48%;
+    }
+
+    .testimonial-content-img{
+        gap: 20px 20px;
+    }
 }
 
 /* Media Query for 1280px to 1440px Devices */
-@media (min-width: 1280px) and (max-width: 1440px) {}
+@media (min-width: 1280px) and (max-width: 1440px) {
+
+    .test-left,
+    .slideshow-container {
+        width: 49%;
+    }
+
+    .testimonial-content-img{
+        gap: 20px 20px;
+    }
+}

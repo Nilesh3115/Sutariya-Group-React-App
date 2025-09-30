@@ -60,6 +60,24 @@ q {
     width: 100%;
 }
 
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px); /* start 40px lower */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* end in normal position */
+  }
+}
+
+.fade-in-up {
+  /* animation: fadeInUp 0.8s ease-out forwards; */
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+
 
 /* Media Queries Css Started Here */
 /* Media Query for 576px to 768px Devices */
