@@ -19,31 +19,38 @@ const ExpertiseSection = () => {
   const items = [
     {
       num: "01",
-      title: "Brand Design",
-      img: "images/home-services-image-01.webp",
-      content:
-        "User Research, Information Architecture, Wireframing, Prototypes, UI Design, Usability Testing, Accessibility, Web Design, Mobile App, SaaS Product.",
+      title: "Technology Solutions",
+      img: "images/Technology Solutions.jpeg",
+      content: "Sutariya Group delivers innovative IT solutions tailored to modern business needs. From responsive web and mobile app development to complete digital integration, we help organizations streamline processes, enhance customer experiences, and stay competitive in a fast-evolving digital landscape.",
+      // content: "Delivering innovative IT solutions, from web and app development to seamless digital integrations that empower businesses to stay ahead in the digital age.",
     },
     {
       num: "02",
-      title: "UI/UX Design",
-      img: "images/home-services-image-02.webp",
-      content:
-        "User Research, Information Architecture, Wireframing, Prototypes, UI Design, Usability Testing, Accessibility, Web Design, Mobile App, SaaS Product.",
+      title: "Education & Training",
+      img: "images/Education & Training.jpeg",
+      content: "Through IT Scholars, we provide high-quality IT education and professional training programs. Our structured courses and hands-on learning experiences equip students and professionals with the latest skills, empowering them to excel in their careers and embrace future-ready opportunities confidently.",
+      // content: "Providing high-quality IT education and skill-building programs that prepare students and professionals for future-ready careers.",
     },
     {
       num: "03",
-      title: "Webflow Development",
-      img: "images/home-services-image-03.webp",
-      content:
-        "User Research, Information Architecture, Wireframing, Prototypes, UI Design, Usability Testing, Accessibility, Web Design, Mobile App, SaaS Product.",
+      title: "Invitation & Design",
+      img: "images/Invitation & Design.jpeg",
+      content: "Digiinvitation offers a vast collection of creative invitation designs for every occasion. With over 1000 unique templates and custom options, we combine creativity, elegance, and personalization to ensure that every event—from weddings to corporate gatherings—is memorable and visually striking.",
+      // content: "Crafting thousands of unique invitation designs for every occasion, blending creativity with personalization for memorable events.",
     },
     {
       num: "04",
-      title: "Strategy",
-      img: "images/home-services-image-04.webp",
-      content:
-        "User Research, Information Architecture, Wireframing, Prototypes, UI Design, Usability Testing, Accessibility, Web Design, Mobile App, SaaS Product.",
+      title: "Creative Printing",
+      img: "images/Creative Printing.jpeg",
+      content: "Uniprint specializes in end-to-end digital printing solutions. We create fully customized products, including mugs, t-shirts, kurtas, shirts, and welcome kits, blending high-quality materials with cutting-edge printing technology to bring your brand, message, or personal design to life in a visually impactful way.",
+      // content: "Specializing in digital printing with fully customized products, including mugs, t-shirts, kurtas, shirts, and corporate welcome kits.",
+    },
+    {
+      num: "05",
+      title: "Marketing Strategies",
+      img: "images/Marketing Strategies.jpeg",
+      content: "Marketing365 drives measurable business growth through expert digital marketing solutions. From SEO, social media campaigns, and PPC advertising to content marketing and brand strategy, we craft data-driven, results-oriented approaches that increase visibility, engagement, and revenue for businesses across industries.",
+      // content: "Driving measurable business growth with expert digital marketing, SEO, social media campaigns, and result-oriented promotional strategies.",
     },
   ];
 
@@ -57,9 +64,8 @@ const ExpertiseSection = () => {
         {items.map((item, index) => (
           <li
             key={index}
-            className={`accordion-item ${
-              activeIndex === index ? "active" : ""
-            }`}
+            className={`accordion-item ${activeIndex === index ? "active" : ""
+              }`}
           >
             {/* Accordion Header */}
             <div

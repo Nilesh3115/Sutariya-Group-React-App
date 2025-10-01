@@ -10,7 +10,7 @@ const AboutUs = () => {
                     <h2>We make your<br />bussiness stand out</h2>
                 </div>
                 <div className="ab-work-para">
-                    <p>At Kinetiq, we are the architects of distinctive and memorable creative experiences. That align with but surpass the continually evolving standards of the creative landscape.</p>
+                    <p>Sutariya Group is dedicated to helping businesses and individuals shine with innovative solutions that combine creativity and technology. From IT education and digital services to custom invitations, printing, and marketing, we craft experiences that strengthen identity, build trust, and inspire growth. With a passion for excellence, our team ensures every service is designed to add value and make your business stand out in a competitive world.</p>
                 </div>
             </div>
 
@@ -44,19 +44,19 @@ const AboutUs = () => {
 
             <div className="logo-images">
                 <div className="images">
-                <img src="./images/IT Scholars.png" loading="lazy" alt="" />
+                    <img src="./images/IT Scholars.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/Sutariya Infotech.png" loading="lazy" alt="" />
+                    <img src="./images/Sutariya Infotech.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/Digi Invitation.png" loading="lazy" alt="" />
+                    <img src="./images/Digi Invitation.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/Uniprint.png" loading="lazy" alt="" />
+                    <img src="./images/Uniprint.png" loading="lazy" alt="" />
                 </div>
                 <div className="images">
-                <img src="./images/Marketing 365.png" loading="lazy" alt="" />
+                    <img src="./images/Marketing 365.png" loading="lazy" alt="" />
                 </div>
             </div>
 
