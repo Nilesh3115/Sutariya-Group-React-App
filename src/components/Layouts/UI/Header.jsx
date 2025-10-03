@@ -39,7 +39,7 @@ export const Headers = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li className="ac-h-e">
-            <NavLink to="/about us">About Us</NavLink>
+            <NavLink to="/about">About Us</NavLink>
           </li>
           <li className="ac-h-e">
             <NavLink to="/project">Project</NavLink>

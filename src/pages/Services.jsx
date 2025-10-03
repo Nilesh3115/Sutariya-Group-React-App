@@ -2,7 +2,7 @@ import AboutHeroSection from "../components/About/AboutHeroSection";
 import CollabSection from "../components/Collab/CollabSection";
 import ServicesSection from "../components/Services/ServicesSection";
 import Breadcrums from "../components/Breadcrums/Breadcrums";
-import HeroBg from "/images/Hero Background.jpg"
+import HeroBg from "/images/Services Hero.jpg"
 
 
 

@@ -4,7 +4,7 @@ import Breadcrums from "../components/Breadcrums/Breadcrums";
 import Testimonials from "../components/Testimonials/Testimonials";
 import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
 import WhyChUs from "../components/WhyChUs/WhyChUs";
-import HeroBg from "/images/Hero Background.jpg"
+import HeroBg from "/images/About Hero.jpg"
 
 
 export function About() {
