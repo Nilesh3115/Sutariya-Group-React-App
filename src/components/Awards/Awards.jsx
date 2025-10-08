@@ -9,7 +9,7 @@ const Awards = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,  // large tablets & small laptops
@@ -58,13 +58,13 @@ const Awards = () => {
             <img src="/images/Awards_3.png" alt="Slide 3" />
           </div>
           <div className="awards-img">
-            <img src="/images/Awards_1.png" alt="Slide 1" />
+            <img src="/images/Awards_1.png" alt="Slide 4" />
           </div>
           <div className="awards-img">
-            <img src="/images/Awards_2.png" alt="Slide 2" />
+            <img src="/images/Awards_2.png" alt="Slide 5" />
           </div>
           <div className="awards-img">
-            <img src="/images/Awards_3.png" alt="Slide 3" />
+            <img src="/images/Awards_3.png" alt="Slide 6" />
           </div>
         </Slider>
       </div>

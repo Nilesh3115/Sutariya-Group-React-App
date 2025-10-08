@@ -44,19 +44,19 @@ const AboutUs = () => {
 
             <div className="logo-images">
                 <div className="images">
-                    <img src="./images/IT Scholars.png" loading="lazy" alt="" />
+                    <a href="https://itscholars.in/"><img src="./images/IT Scholars.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="images">
-                    <img src="./images/Sutariya Infotech.png" loading="lazy" alt="" />
+                    <a href="https://sutariyainfotech.com/"><img src="./images/Sutariya Infotech.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="images">
-                    <img src="./images/Digi Invitation.png" loading="lazy" alt="" />
+                    <a href="https://digiinvitation.com/"><img src="./images/Digi Invitation.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="images">
-                    <img src="./images/Uniprint.png" loading="lazy" alt="" />
+                    <a href="https://uniprint.in/"><img src="./images/Uniprint.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="images">
-                    <img src="./images/Marketing 365.png" loading="lazy" alt="" />
+                    <a href="#"><img src="./images/Marketing 365.png" loading="lazy" alt="" /></a>
                 </div>
             </div>
 

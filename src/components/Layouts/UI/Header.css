@@ -1,4 +1,6 @@
-/*header*/
+/* ================================
+   Header
+=================================== */
 .header {
     width: 90%;
     max-width: 100%;
@@ -19,7 +21,9 @@
     height: 36px;
 }
 
-/* Navbar */
+/* ================================
+   Navbar (Desktop)
+=================================== */
 .navbar {
     display: flex;
     align-items: center;
@@ -30,7 +34,6 @@
     list-style: none;
     padding: 0 20px;
     position: relative;
-
 }
 
 .navbar li a {
@@ -39,12 +42,14 @@
     color: white;
 }
 
+/* Navbar when header is scrolled */
 .header.scrolled .navbar li a {
     color: #065b69;
 }
 
-
-/* Navbar for Mobile */
+/* ================================
+   Mobile Controls
+=================================== */
 .mobile {
     display: none;
     align-items: center;
@@ -54,9 +59,9 @@
     display: none;
 }
 
-
-
-/* Window Scrolled Navbaar */
+/* ================================
+   Scrolled Header Style
+=================================== */
 .scrolled {
     background: white;
     border-radius: 10px;
@@ -71,12 +76,10 @@
     color: #065b69;
 }
 
-
-
-
-/* Media Queries Css Started Here */
-
-/* Media Query for Maximum 768px Devices */
+/* ================================
+   Media Queries
+   For Devices ≤ 768px
+=================================== */
 @media (max-width: 768px) {
     .navbar {
         display: flex;
@@ -90,17 +93,23 @@
         width: 300px;
         background-color: #e3f6f3;
         /* background-color: #065b69; */
-        box-shadow: 0 40px 60px rgb(0, 0, 0)0.1;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
     }
 
     .navbar.active {
-        right: 0px;
+        right: 0;
     }
 
     .navbar li {
         margin-bottom: 25px;
+    }
+
+    .active li a {
+        font-size: 16px;
+        font-weight: 600;
+        color: #065b69;
     }
 
     .mobile {
@@ -121,5 +130,4 @@
         color: #065b69;
         font-size: 24px;
     }
-
 }

@@ -23,7 +23,7 @@
 .test-left {
     max-width: 100%;
     height: auto;
-    width: 48%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,7 +160,7 @@
 
     .test-left,
     .slideshow-container {
-        width: 47%;
+        width: 48%;
     }
 
     .testimonial-content-img{
@@ -170,14 +170,14 @@
 
 /* Media Query for 1024px to 1280px Devices */
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .test-left,
+    /* .test-left,
     .slideshow-container {
         width: 48%;
     }
 
     .testimonial-content-img{
         gap: 20px 20px;
-    }
+    } */
 }
 
 /* Media Query for 1280px to 1440px Devices */
@@ -185,10 +185,10 @@
 
     .test-left,
     .slideshow-container {
-        width: 49%;
+        /* width: 47%; */
     }
 
-    .testimonial-content-img{
+    /* .testimonial-content-img{
         gap: 20px 20px;
-    }
+    } */
 }
