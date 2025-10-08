@@ -1,29 +1,30 @@
-/* Testimonials Section */
+/* =======================
+   Testimonials Section
+======================= */
 .testimonials {
     background-color: #000;
-    color: white;
+    color: #fff;
     justify-content: center;
 }
 
 .testimonials h2 {
-    /* font-size: 60px;
-    font-weight: 600; */
-    margin: 0px auto 60px auto;
+    margin: 0 auto 60px auto;
     text-align: center;
 }
 
+/* Content Layout */
 .testimonial-content-img {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     gap: 20px 50px;
 }
 
 .test-left {
+    width: 40%;
     max-width: 100%;
     height: auto;
-    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,164 +32,125 @@
 }
 
 .test-left img {
-    max-width: 100%;
-    max-height: 500px;
     width: 100%;
     height: 100%;
+    max-width: 100%;
+    max-height: 500px;
     border-radius: 8px;
 }
 
-
-
-
-/* Slideshow container */
+/* Slideshow Container */
 .slideshow-container {
-    max-width: 100%;
     width: 48%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0px 20px;
+    gap: 0 20px;
 }
 
-/* Slides */
+/* Slide Styles */
 .mySlides {
-    text-align: start;
-    gap: 50px 20px;
     display: flex;
     flex-direction: column;
+    gap: 50px 20px;
     position: relative;
+    text-align: start;
     padding: 10px 10px 60px 10px;
 }
 
-
-
-/* Next & previous buttons */
+/* Navigation Buttons */
 .prev,
 .next {
+    position: absolute;
+    right: 60px;
+    bottom: 0;
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    color: white;
     font-size: 20px;
-    border: 1px solid;
-    padding: 10px;
-    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
     user-select: none;
-    position: absolute;
-    right: 60px;
-    bottom: 0px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
 }
 
-/* Position the "next button" to the right */
 .next {
-    right: 0px;
+    right: 0;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: #fff;
 }
 
-/* Add a background color to the active dot/circle
-.active, .dot:hover {
-  background-color: #717171;
-} */
-
-/* Add an italic font style to all quotes */
-/* q {
-    font-style: italic;
-    font-size: 30px;
-    font-weight: 500;
-} */
-
-/* Add a blue color to the author */
+/* Author Info */
 .author {
-    color: #fff;
-    font-weight: 600;
     font-size: 18px;
+    font-weight: 600;
+    color: #fff;
 }
 
 .author-post {
     font-size: 16px;
 }
 
+/* =======================
+   Responsive Styles
+======================= */
 
-
-/* Media Queries Css Started Here */
-
-/* Media Query for 576px to 768px Devices */
+/* Small devices (max-width: 575px) */
 @media (max-width: 575px) {
     .test-left,
     .slideshow-container {
         width: 100%;
     }
 
-    .testimonial-content-img{
-        gap: 10px;
+    .testimonial-content-img {
         flex-direction: column;
+        gap: 10px;
     }
 
-    .test-left img{
+    .test-left img {
         height: 400px;
     }
 }
 
-/* Media Query for 576px to 768px Devices */
+/* Small tablets (576px - 768px) */
 @media (min-width: 576px) and (max-width: 768px) {
     .test-left,
     .slideshow-container {
         width: 100%;
     }
 
-    .testimonial-content-img{
-        gap: 10px;
+    .testimonial-content-img {
         flex-direction: column;
+        gap: 10px;
     }
 
-    .test-left img{
+    .test-left img {
         height: 400px;
     }
 }
 
-/* Media Query for 768px to 1024px Devices */
-@media (min-width: 768px) and (max-width: 1024px) {
-
+/* Tablets (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
     .test-left,
     .slideshow-container {
         width: 48%;
     }
 
-    .testimonial-content-img{
+    .testimonial-content-img {
         gap: 20px 20px;
     }
 }
 
-/* Media Query for 1024px to 1280px Devices */
-@media (min-width: 1024px) and (max-width: 1280px) {
-    /* .test-left,
-    .slideshow-container {
-        width: 48%;
-    }
+/* Small desktops (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {}
 
-    .testimonial-content-img{
-        gap: 20px 20px;
-    } */
-}
-
-/* Media Query for 1280px to 1440px Devices */
-@media (min-width: 1280px) and (max-width: 1440px) {
-
-    .test-left,
-    .slideshow-container {
-        /* width: 47%; */
-    }
-
-    /* .testimonial-content-img{
-        gap: 20px 20px;
-    } */
-}
+/* Large desktops (1281px - 1440px) */
+@media (min-width: 1281px) and (max-width: 1440px) {}

@@ -9,6 +9,10 @@
     list-style: none;
 }
 
+a{
+    color: inherit;
+}
+
 h1 {
     font-size: 54px;
     line-height: 1.2;

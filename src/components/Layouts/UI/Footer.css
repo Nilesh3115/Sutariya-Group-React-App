@@ -1,52 +1,155 @@
-/* Footer Section */
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.footer {
     background-color: black;
     color: white;
-    border-top: 1px solid #616161;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-footer a {
-    font-size: 13px;
-    color: #222;
+.footer-top {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 50px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #616161;
+    padding-bottom: 50px;
 }
 
-footer img {
+.footer-col-f {
+    width: 20%;
+}
+
+.footer-col-s h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-col-soc h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-logo img {
     width: 160px;
     height: 36px;
+    margin-bottom: 20px;
 }
 
-.icon {
+.footer-col-s {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-col-s ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col-soc {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.socials {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+    font-size: 25px;
 }
 
-.icon i {
-    font-size: 20px;
-    color: #465b52;
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.subscribe input {
+    padding: 12px 18px;
+    border-radius: 99px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    outline: none;
+    width: 48%;
+
+}
+
+.butt {
+    padding: 12px 18px;
+    border-radius: 99px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    outline: none;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     cursor: pointer;
 }
 
+.butt:hover {
+    background-color: #065b69;
+    border: none;
+    transition: 0.3s;
+}
 
-/* Media Queries Css Started Here */
 
-/* Media Query for Maximum 768px Devices */
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        gap: 20px;
+
+@media (max-width:768px) {
+    .footer-top{
+        /* flex-direction: column; */
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .footer-col-f,.footer-col-soc{
+        width: 100%;
+        align-items: start;
+    }
+
+    .footer-col-s{
+        width: 45%;
     }
 }
 
-/* Media Query for 768px to 1024px Devices */
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width:768px) and (max-width:1024px) {
+    .footer-top {
+        gap: 27px;
+    }
 
-/* Media Query for 1024px to 1280px Devices */
-@media (min-width: 1024px) and (max-width: 1280px) {}
+    .subscribe input,
+    .butt {
+        width: 100%;
+    }
+}
 
-/* Media Query for 1280px to 1440px Devices */
-@media (min-width: 1280px) and (max-width: 1440px) {}
+@media (min-width:1024px) and (max-width:1280px) {
+    .footer-top {
+        gap: 36px;
+    }
+
+    .subscribe input,
+    .butt {
+        width: 100%;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1440px) {
+    .footer-top {
+        gap: 44px;
+    }
+}
