@@ -123,6 +123,7 @@
 
     .footer-col-s{
         width: 45%;
+        align-items: start;
     }
 }
 
