@@ -1,21 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+@import "tailwindcss";
+
+
+
+@theme {
+    --font-outfit: "Outfit", sans-serif;
+
+    --color-primary: #065b69;
+
+    --background-primary: #065b69;
+    --background-secondary: #066a61;
+    --background-black: #000;
+
+    /* Min-Width 1440px 3xl */
+    --text-3xlh1: 54px;
+    --leading-3xlh1: 1.2;
+    --text-3xlh2: 50px;
+    --leading-3xlh2: 1.25;
+    --text-3xlh3: 42px;
+    --leading-3xlh3: 1.3;
+    --text-3xlh4: 18px;
+    --leading-3xlh4: 1.35;
+    --text-3xlspan: 40px;
+    --leading-3xlspan: 1.6;
+    --text-3xlp: 16px;
+    --leading-3xlp: 1.6;
+    --text-3xlq: 30px;
+    --leading-3xlq: 1.6;
+
+    /* Min-Width 1280px 2xl */
+    --text-2xlh1: 50px;
+    --text-2xlh2: 48px;
+    --text-2xlh3: 40px;
+    --text-2xlspan: 38px;
+    --leading-2xlspan: 1.55;
+    --text-2xlq: 28px;
+    --leading-2xlq: 1.55;
+    --leading-2xlp: 1.55;
+
+    /* Min-Width 1024px xl */
+    --text-xlh1: 48px;
+    --leading-xlh1: 1.2;
+    --text-xlh2: 46px;
+    --leading-xlh2: 1.25;
+    --text-xlh3: 34px;
+    --leading-xlh3: 1.3;
+    --text-xlspan: 36px;
+    --leading-xlspan: 1.5;
+    --text-xlq: 24px;
+    --leading-xlq: 1.5;
+    --leading-xlp: 1.5;
+
+    /* Min-Width 768px lg */
+    --text-lgh1: 46px;
+    --leading-lgh1: 1.15;
+    --text-lgh2: 44px;
+    --leading-lgh2: 1.2;
+    --text-lgh3: 28px;
+    --leading-lgh3: 1.25;
+    --text-lgspan: 34px;
+    --leading-lgspan: 1.45;
+    --text-lgq: 22px;
+    --leading-lgq: 1.45;
+    --leading-lgh4: 1.3;
+    --leading-lgp: 1.45;
+
+    /* Min-Width 576px md */
+    --text-mdh1: 44px;
+    --leading-mdh1: 1.15;
+    --text-mdh2: 42px;
+    --leading-mdh2: 1.2;
+    --text-mdh3: 26px;
+    --leading-mdh3: 1.25;
+    --text-mdspan: 32px;
+    --leading-mdspan: 1.4;
+    --text-mdq: 20px;
+    --leading-mdq: 1.4;
+    --leading-mdh4: 1.3;
+    --leading-mdp: 1.4;
+
+    /* Min-Width 393px sm */
+    --text-smh1: 28px;
+    --leading-smh1: 1.1;
+    --text-smh2: 32px;
+    --leading-smh2: 1.15;
+    --text-smh3: 24px;
+    --leading-smh3: 1.2;
+    --text-smspan: 28px;
+    --leading-smspan: 1.35;
+    --text-smq: 18px;
+    --leading-smq: 1.35;
+    --leading-smh4: 1.25;
+    --leading-smp: 1.35;
+
+    /* Breackpoints */
+    --breakpoint-sm: 393px;
+    --breakpoint-md: 576px;
+    --breakpoint-lg: 768px;
+    --breakpoint-xl: 1024px;
+    --breakpoint-2xl: 1280px;
+    --breakpoint-3xl: 1440px;
+
+
+
+}
+
+
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
     text-decoration: none;
     list-style: none;
 }
 
-a{
+a {
     color: inherit;
 }
 
-h1 {
+/* h1 {
     font-size: 54px;
-    line-height: 1.2;
+    line-height: 1.2; 
 }
 
 h2 {
@@ -62,23 +169,26 @@ q {
 .section-mw {
     max-width: 1600px;
     width: 100%;
-}
+} */
 
 /* Fade In Up Animation */
 @keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(40px); /* start 40px lower */
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0); /* end in normal position */
-  }
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+        /* start 40px lower */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /* end in normal position */
+    }
 }
 
 .fade-in-up {
-  /* animation: fadeInUp 0.8s ease-out forwards; */
-  animation: fadeInUp 1.5s ease-out forwards;
+    /* animation: fadeInUp 0.8s ease-out forwards; */
+    animation: fadeInUp 1.5s ease-out forwards;
 }
 
 
@@ -86,7 +196,7 @@ q {
 
 /* Media Queries Css Started Here */
 /* Media Query for 576px to 768px Devices */
-@media (max-width: 575px) {
+/* @media (max-width: 575px) { 
     .section-p1 {
         padding: 40px 20px;
     }
@@ -116,17 +226,17 @@ q {
         line-height: 1.35;
     }
 
-    h4{
+    h4 {
         line-height: 1.25;
     }
 
-    p{
+    p {
         line-height: 1.35;
     }
-}
+} */
 
 /* Media Query for 576px to 768px Devices */
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
     .section-p1 {
         padding: 40px 20px;
     }
@@ -134,7 +244,7 @@ q {
     h1 {
         font-size: 44px;
         line-height: 1.15;
-    }
+    } 
 
     h2 {
         font-size: 42px;
@@ -146,11 +256,11 @@ q {
         line-height: 1.25;
     }
 
-    h4{
+    h4 {
         line-height: 1.3;
     }
 
-    p{
+    p {
         line-height: 1.4;
     }
 
@@ -163,11 +273,11 @@ q {
         font-size: 20px;
         line-height: 1.4;
     }
-}
+} */
 
 /* Media Query for 768px to 1024px Devices */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .section-p1 {
+/* @media (min-width: 768px) and (max-width: 1024px) {
+     .section-p1 {
         padding: 60px 40px;
     }
 
@@ -186,11 +296,11 @@ q {
         line-height: 1.25;
     }
 
-    h4{
+    h4 {
         line-height: 1.3;
     }
 
-    p{
+    p {
         line-height: 1.45;
     }
 
@@ -203,10 +313,10 @@ q {
         font-size: 22px;
         line-height: 1.45;
     }
-}
+} */
 
 /* Media Query for 1024px to 1280px Devices */
-@media (min-width: 1024px) and (max-width: 1280px) {
+/* @media (min-width: 1024px) and (max-width: 1280px) {
     .section-p1 {
         padding: 80px 60px;
     }
@@ -233,13 +343,13 @@ q {
         line-height: 1.5;
     }
 
-    p{
+    p {
         line-height: 1.5;
     }
-}
+} */
 
 /* Media Query for 1280px to 1440px Devices */
-@media (min-width: 1280px) and (max-width: 1440px) {
+/* @media (min-width: 1280px) and (max-width: 1440px) {
     .section-p1 {
         padding: 80px;
     }
@@ -266,8 +376,8 @@ q {
         line-height: 1.55;
     }
 
-    p{
+    p {
         line-height: 1.55;
     }
 
-}
+} */

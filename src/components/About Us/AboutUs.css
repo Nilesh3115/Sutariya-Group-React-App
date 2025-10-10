@@ -1,6 +1,6 @@
 /* Impact Number Section Copy By Work Section */
 /* Work Section */
-.ab-works {
+/* .ab-works {
     background-color: #000;
     color: white;
     display: flex;
@@ -8,9 +8,9 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.ab-work-para-wrap {
+/* .ab-work-para-wrap {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -19,64 +19,64 @@
     max-width: 100%;
     gap: 25px 100px;
     margin-bottom: 40px;
-}
+} */
 
-.ab-work-title {
+/* .ab-work-title {
     width: 46%;
     display: flex;
     align-items: center;
     justify-content: start;
-}
+} */
 /* 
 .ab-work-title h2 {
     font-weight: 600;
     font-size: 60px;
 } */
 
-.ab-work-para {
+/* .ab-work-para {
     width: 46%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-}
+} */
 
-.image-counter {
+/* .image-counter {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 100%;
     gap: 25px 100px;
-}
+} */
 
-.image {
+/* .image {
     width: 50%;
     height: auto;
 
-}
+} */
 
-.image img {
+/* .image img {
     max-width: 100%;
     width: 100%;
     height: auto;
-}
+} */
 
-.counters {
+/* .counters {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 80px 80px;
-}
+} */
 
-.count-wrap {
+/* .count-wrap {
     width: 43%;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 /* .count-wrap h3 {
     font-size: 42px;
@@ -87,23 +87,23 @@
     font-size: 16px;
 } */
 
-.logo-images {
+/* .logo-images {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px 32px;
     padding: 8px 0;
     flex-wrap: wrap;
-}
+} */
 
-.images {
+/* .images {
     width: 17%;
-}
+} */
 
-.images img {
+/* .images img {
     width: 100%;
     height: 100%;
-}
+} */
 
 
 

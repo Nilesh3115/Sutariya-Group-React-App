@@ -8,7 +8,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const WorkSection = () => {
     return (
 
-        <section className="works section-p1 section-mw">
+        <section className="works section-p1 section-mw px-[150px] py-[80px]">
 
             {/* <!-- Section Heading with Title & Introductory Paragraph --> */}
             <div className="work-para-wrap fade-in-up">

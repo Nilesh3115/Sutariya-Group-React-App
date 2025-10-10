@@ -8,7 +8,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const CollabSection = () => {
     return (
         // Collab Section
-        <NavLink to="/contact">
+        <NavLink to="#">
             <div className="collab-section section-p1 section-mw">
                 <h2>Lets Collaborate <br /> with us</h2>
                 <div className="arrow-i">
