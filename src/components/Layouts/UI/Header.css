@@ -1,7 +1,7 @@
 /* ================================
    Header
 =================================== */
-.header {
+/* .header {
     width: 90%;
     max-width: 100%;
     display: flex;
@@ -19,12 +19,12 @@
 .header img {
     width: 160px;
     height: 36px;
-}
+} */
 
 /* ================================
    Navbar (Desktop)
 =================================== */
-.navbar {
+/* .navbar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,46 +42,46 @@
     color: white;
 }
 
-/* Navbar when header is scrolled */
+// Navbar when header is scrolled 
 .header.scrolled .navbar li a {
     color: #065b69;
-}
+} */
 
 /* ================================
    Mobile Controls
 =================================== */
-.mobile {
+/* .mobile {
     display: none;
     align-items: center;
 }
 
 .close {
     display: none;
-}
+} */
 
 /* ================================
    Scrolled Header Style
 =================================== */
-.scrolled {
+/* .scrolled {
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
+} */
+/* 
 #navbar li a.scrolling {
     color: #065b69;
 }
 
 #navbar li a.scrolling:hover {
     color: #065b69;
-}
+} */
 
 /* ================================
    Media Queries
    For Devices ≤ 768px
 =================================== */
 @media (max-width: 768px) {
-    .navbar {
+    /* .navbar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -92,17 +92,17 @@
         height: 100vh;
         width: 300px;
         background-color: #e3f6f3;
-        /* background-color: #065b69; */
+        // background-color: #065b69;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
-    }
-
+    } */
+/* 
     .navbar.active {
         right: 0;
-    }
+    } */
 
-    .navbar li {
+    /* .navbar li {
         margin-bottom: 25px;
     }
 
@@ -110,9 +110,9 @@
         font-size: 16px;
         font-weight: 600;
         color: #065b69;
-    }
+    } */
 
-    .mobile {
+    /* .mobile {
         display: flex;
     }
 
@@ -129,5 +129,5 @@
         left: 30px;
         color: #065b69;
         font-size: 24px;
-    }
+    } */
 }

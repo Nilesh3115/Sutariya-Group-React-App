@@ -1,6 +1,6 @@
-/* =======================
+/* // =======================
    Testimonials Section
-======================= */
+=======================
 .testimonials {
     background-color: #000;
     color: #fff;
@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-/* Content Layout */
+// Content Layout
 .testimonial-content-img {
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@
     border-radius: 8px;
 }
 
-/* Slideshow Container */
+// Slideshow Container
 .slideshow-container {
     width: 48%;
     max-width: 100%;
@@ -48,7 +48,7 @@
     gap: 0 20px;
 }
 
-/* Slide Styles */
+// Slide Styles
 .mySlides {
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@
     padding: 10px 10px 60px 10px;
 }
 
-/* Navigation Buttons */
+// Navigation Buttons
 .prev,
 .next {
     position: absolute;
@@ -88,7 +88,7 @@
     color: #fff;
 }
 
-/* Author Info */
+// Author Info
 .author {
     font-size: 18px;
     font-weight: 600;
@@ -97,7 +97,7 @@
 
 .author-post {
     font-size: 16px;
-}
+} */
 
 /* =======================
    Responsive Styles
@@ -121,7 +121,7 @@
 }
 
 /* Small tablets (576px - 768px) */
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
     .test-left,
     .slideshow-container {
         width: 100%;
@@ -135,10 +135,10 @@
     .test-left img {
         height: 400px;
     }
-}
+} */
 
 /* Tablets (769px - 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+/* @media (min-width: 769px) and (max-width: 1024px) {
     .test-left,
     .slideshow-container {
         width: 48%;
@@ -147,7 +147,7 @@
     .testimonial-content-img {
         gap: 20px 20px;
     }
-}
+} */
 
 /* Small desktops (1025px - 1280px) */
 @media (min-width: 1025px) and (max-width: 1280px) {}
