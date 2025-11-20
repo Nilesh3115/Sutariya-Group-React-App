@@ -1,4 +1,3 @@
-import "./WhyChUs.css";
 
 import { GrAchievement } from "react-icons/gr";
 import { TbBulb } from "react-icons/tb";

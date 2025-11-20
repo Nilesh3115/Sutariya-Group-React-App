@@ -1,5 +1,4 @@
 import { useLocation } from "react-router-dom";
-import "./Breadcrums.css"; // optional, for additional styling
 
 const HeroSection = ({ description, bgImage }) => {
   const location = useLocation();

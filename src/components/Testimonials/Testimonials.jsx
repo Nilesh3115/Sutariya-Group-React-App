@@ -1,4 +1,3 @@
-import "./Testimonials.css"
 
 import { useState } from "react";
 

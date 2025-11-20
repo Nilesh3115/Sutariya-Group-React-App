@@ -1,4 +1,3 @@
-import "./Footer.css";
 import { FaLinkedin, FaDribbble, FaBehance } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 

@@ -1,4 +1,3 @@
-import "./Awards.css"
 import Slider from "react-slick";
 
 const Awards = () => {

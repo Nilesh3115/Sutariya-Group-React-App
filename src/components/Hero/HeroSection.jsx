@@ -1,4 +1,3 @@
-import "./HeroSection.css"
 
 const HeroSection = () => {
   return (
