@@ -10,31 +10,43 @@ const Awards = () => {
     autoplaySpeed: 3000,
     arrows: false,
     responsive: [
-      {
-        breakpoint: 1024,  // large tablets & small laptops
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 768,  // tablets
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,  // mobile
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false   // hide arrows on mobile
-        }
+    {
+      breakpoint: 1440,  // --breakpoint-3xl
+      settings: {
+        slidesToShow: 4,
       }
-    ]
+    },
+    {
+      breakpoint: 1280,  // --breakpoint-2xl
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 1024,  // --breakpoint-xl
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 768,  // --breakpoint-lg
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 576,  // --breakpoint-md
+      settings: {
+        slidesToShow: 1,
+      }
+    },
+    {
+      breakpoint: 390,  // --breakpoint-sm (small mobile)
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
   };
 
   return (
