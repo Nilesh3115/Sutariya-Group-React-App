@@ -1,4 +1,3 @@
-import AboutHeroSection from "../components/About/AboutHeroSection";
 import WorkSection from "../components/Work/WorkSection";
 import CollabSection from "../components/Collab/CollabSection";
 import Breadcrums from "../components/Breadcrums/Breadcrums";

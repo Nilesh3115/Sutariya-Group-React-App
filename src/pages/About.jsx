@@ -1,4 +1,3 @@
-import AboutHeroSection from "../components/About/AboutHeroSection";
 import Awards from "../components/Awards/Awards";
 import Breadcrums from "../components/Breadcrums/Breadcrums";
 import Testimonials from "../components/Testimonials/Testimonials";
@@ -16,7 +15,6 @@ export function About() {
                 bgImage={HeroBg}
             />
 
-            {/* <AboutHeroSection /> */}
 
             <WhoWeAre />
 
