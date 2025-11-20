@@ -9,7 +9,6 @@ import "./Media.css";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Services } from "./pages/Services";
-import { Contact } from "./pages/Contact";
 import { ErrorPage } from "./pages/ErrorPage";
 import { Project } from "./pages/Project";
 
@@ -36,11 +35,7 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
-      }]
+      },]
   }
 
 ]);

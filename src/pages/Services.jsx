@@ -1,7 +1,6 @@
-import AboutHeroSection from "../components/About/AboutHeroSection";
 import CollabSection from "../components/Collab/CollabSection";
-import ServicesSection from "../components/Services/ServicesSection";
 import Breadcrums from "../components/Breadcrums/Breadcrums";
+import ExpertiesSection from "../components/Experties/ExpertiesSection";
 import HeroBg from "/images/Services Hero.jpg"
 
 
@@ -16,9 +15,10 @@ export function Services() {
                 bgImage={HeroBg}
             />
 
-            <ServicesSection />
+            <ExpertiesSection/>
 
             <CollabSection />
+            
         </>
     );
 }

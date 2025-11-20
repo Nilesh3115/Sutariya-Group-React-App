@@ -40,7 +40,7 @@ const Testimonials = () => {
         <section className="bg-black text-white font-outfit
         3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] 
         xl:py-[80px] xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] 
-        md:px-[20px] sm:py-[40px] sm:px-[20px] ">
+        md:px-[20px] sm:py-[40px] sm:px-[20px] w-full max-w-[1600px]">
             <h2 className="fade-in-up mb-[60px] text-center 3xl:text-3xlh2 3xl:leading-3xlh2 
       2xl:text-2xlh2 2xl:leading-2xlh2 
       xl:text-xlh2 xl:leading-xlh2 
