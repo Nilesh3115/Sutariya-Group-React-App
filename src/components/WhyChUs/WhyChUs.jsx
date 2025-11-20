@@ -8,7 +8,10 @@ import { PiUserFocusBold } from "react-icons/pi";
 
 const WhyChUs = () => {
     return (
-        <section className="why-ch-us section-p1 section-mw">
+        <section className="flex items-center justify-center gap-y-7.5 gap-x-10 flex-wrap 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] 
+        xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] 
+        sm:py-[40px] sm:px-[20px] 
+        font-outfit bg-black text-white w-full max-w-[1600px]">
 
             <div className="heading-sub">
                 <p>WHY CHOOSE US</p>
@@ -16,33 +19,33 @@ const WhyChUs = () => {
                 <p>At Suatriya Group, we combine innovation, expertise, and integrity to deliver exceptional solutions across industries. Our commitment to quality, sustainable growth, and ethical practices ensures strong partnerships, empowers communities, and creates lasting value, making us a trusted choice for clients and stakeholders seeking reliable, forward-thinking solutions.</p>
             </div>
 
-            <div className="why-img">
-                <img src="./images/AI Banner_03.jpg" loading="lazy" alt="" />
+            <div className="w-[48%] h-auto">
+                <img className="max-w-full w-full h-auto transition-transform duration-400 ease-in-out hover:translate-y-[-10px]" src="./images/AI Banner_03.jpg" loading="lazy" alt="" />
             </div>
 
-            <div className="icon-boxes">
+            <div className="flex items-start justify-center flex-wrap gap-7.5">
 
-                <div className="icon-box">
-                    <div className="icon"><GrAchievement /></div>
-                    <div className="box-content">
-                        <h3>Experties</h3>
-                        <p>With years of diversified experience, we bring deep industry knowledge and proven capabilities to every project. Our expertise ensures efficient solutions, reliable outcomes, and value-driven strategies tailored to client needs.</p>
+                <div className="flex flex-col w-[31%] items-start justify-center gap-5">
+                    <div className="text-12.5 text-primary"><GrAchievement /></div>
+                    <div className="flex flex-col items-start justify-center gap-2.5">
+                        <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3">Experties</h3>
+                        <p className="3xl:text-3xlp 3xl:leading-3xlp 2xl:text-2xlp 2xl:leading-2xlp xl:text-xlp xl:leading-xlp lg:text-lgp lg:leading-lgp md:text-mdp md:leading-mdp sm:text-smp sm:leading-smp font-light">With years of diversified experience, we bring deep industry knowledge and proven capabilities to every project. Our expertise ensures efficient solutions, reliable outcomes, and value-driven strategies tailored to client needs.</p>
                     </div>
                 </div>
 
-                <div className="icon-box">
-                    <div className="icon"><TbBulb /></div>
-                    <div className="box-content">
-                        <h3>Innovation</h3>
-                        <p>We embrace new ideas, modern technologies, and forward-thinking strategies to deliver solutions that go beyond expectations. Innovation drives our growth, keeps us adaptable, and helps us shape a sustainable and progressive future.</p>
+                <div className="flex flex-col w-[31%] items-start justify-center gap-5">
+                    <div className="text-12.5 text-primary"><TbBulb /></div>
+                    <div className="flex flex-col items-start justify-center gap-2.5">
+                        <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3">Innovation</h3>
+                        <p className="3xl:text-3xlp 3xl:leading-3xlp 2xl:text-2xlp 2xl:leading-2xlp xl:text-xlp xl:leading-xlp lg:text-lgp lg:leading-lgp md:text-mdp md:leading-mdp sm:text-smp sm:leading-smp font-light">We embrace new ideas, modern technologies, and forward-thinking strategies to deliver solutions that go beyond expectations. Innovation drives our growth, keeps us adaptable, and helps us shape a sustainable and progressive future.</p>
                     </div>
                 </div>
 
-                <div className="icon-box">
-                    <div className="icon"><PiUserFocusBold /></div>
-                    <div className="box-content">
-                        <h3>Client Focus</h3>
-                        <p>Our clients are at the heart of everything we do. By understanding their goals and challenges, we deliver personalized solutions, long-term value, and trusted partnerships built on integrity, transparency, and shared success.</p>
+                <div className="flex flex-col w-[31%] items-start justify-center gap-5">
+                    <div className="text-12.5 text-primary"><PiUserFocusBold /></div>
+                    <div className="flex flex-col items-start justify-center gap-2.5">
+                        <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3">Client Focus</h3>
+                        <p className="3xl:text-3xlp 3xl:leading-3xlp 2xl:text-2xlp 2xl:leading-2xlp xl:text-xlp xl:leading-xlp lg:text-lgp lg:leading-lgp md:text-mdp md:leading-mdp sm:text-smp sm:leading-smp font-light">Our clients are at the heart of everything we do. By understanding their goals and challenges, we deliver personalized solutions, long-term value, and trusted partnerships built on integrity, transparency, and shared success.</p>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-.whoweare {
+/* .whoweare {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,10 +7,10 @@
     flex-wrap: wrap;
 }
 
-/* .heading-sub h2{
+// .heading-sub h2{
     font-size: 60px;
     font-weight: 600;
-} */
+} 
 
 .heading-sub {
     width: 48%;
@@ -37,15 +37,15 @@
 
 .who-img img:hover {
     transform: translateY(-10px);
-    /* moves image upward */
-}
+    // moves image upward 
+} */
 
 
 
 /* Media Queries Css Started Here */
 
 /* Media Query for 576px to 768px Devices */
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     .who-img {
         width: 100%;
     }
@@ -54,14 +54,14 @@
         width: 100%;
     }
 
-    /* .heading-sub h2{
+    // .heading-sub h2{
         font-size: 32px;
         line-height: 39px;
-    } */
-}
+    } 
+} */
 
 /* Media Query for 576px to 768px Devices */
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
     .who-img {
         width: 46%;
     }
@@ -70,14 +70,14 @@
         width: 46%;
     }
 
-    /* .heading-sub h2{
+    // .heading-sub h2{
         font-size: 36px;
         line-height: 40px;
-    } */
-}
+    }
+} */
 
 /* Media Query for 768px to 1024px Devices */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* @media (min-width: 768px) and (max-width: 1024px) {
     .who-img {
         width: 47%;
     }
@@ -86,13 +86,13 @@
         width: 47%;
     }
 
-    /* .heading-sub h2{
+    // .heading-sub h2{
         font-size: 45px;
-    } */
-}
+    } 
+} */
 
 /* Media Query for 1024px to 1280px Devices */
-@media (min-width: 1024px) and (max-width: 1280px) {
+/* @media (min-width: 1024px) and (max-width: 1280px) {
     .who-img {
         width: 47%;
     }
@@ -101,10 +101,10 @@
         width: 47%;
     }
 
-    /* .heading-sub h2{
+    // .heading-sub h2{
         font-size: 54px;
-    } */
-}
+    } 
+} */
 
 /* Media Query for 1280px to 1440px Devices */
-@media (min-width: 1280px) and (max-width: 1440px) {}
+/* @media (min-width: 1280px) and (max-width: 1440px) {} */

@@ -1,4 +1,4 @@
-.why-ch-us {
+/* .why-ch-us {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,9 +35,9 @@
 
 .box-content p {
     font-weight: 300;
-}
+} */
 
-.icon {
+/* .icon {
     font-size: 50px;
     color: #065b69;
 }
@@ -45,9 +45,9 @@
 .why-img {
     width: 48%;
     height: auto;
-}
+} */
 
-.why-img img {
+/* .why-img img {
     max-width: 100%;
     width: 100%;
     height: auto;
@@ -56,8 +56,8 @@
 
 .why-img img:hover {
     transform: translateY(-10px);
-    /* moves image upward */
-}
+    // moves image upward 
+} */
 
 
 
