@@ -9,7 +9,7 @@ const WhoWeAre = () => {
         <section className="flex items-center justify-center gap-x-10 gap-y-12.5 flex-wrap 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] 
         xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] 
         sm:py-[40px] sm:px-[20px] 
-        font-outfit bg-black text-white w-full max-w-[1600px]">
+        font-outfit bg-black text-white w-full ">
 
 
             <div className="w-[48%] max-2xl:w-[47%] max-lg:w-full max-md:w-full h-auto">

@@ -57,7 +57,7 @@ const ExpertiseSection = () => {
     lg:py-[60px] lg:px-[40px] 
     md:py-[40px] md:px-[20px] 
     sm:py-[40px] sm:px-[20px] 
-    font-outfit text-white bg-black border-none max-w-[1600px] w-full">
+    font-outfit text-white bg-black border-none  w-full">
 
       <h2 className="fade-in-up text-center mb-[40px]
       3xl:text-3xlh2 3xl:leading-3xlh2 
@@ -103,14 +103,14 @@ const ExpertiseSection = () => {
               </span>
 
               {/* Hover Image */}
-              <img
+              {/* <img
                 src={item.img}
                 alt={item.title}
                 className="absolute top-1/2 right-[150px] -translate-y-1/2 
               w-[300px] h-auto rounded-[12px] opacity-0 
               pointer-events-none [transition:opacity_0.4s_ease,transform_0.4s_ease] 
               group-hover:opacity-100 group-hover:scale-105 max-xl:hidden"
-              />
+              /> */}
             </div>
 
             {/* Accordion Content */}

@@ -9,7 +9,7 @@ const WhyChUs = () => {
       className="flex items-center justify-center gap-y-7.5 gap-x-10 flex-wrap 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] 
         xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] 
         sm:py-[40px] sm:px-[20px] 
-        font-outfit bg-black text-white w-full max-w-[1600px]"
+        font-outfit bg-black text-white w-full "
     >
       <div className="w-[48%] max-2xl:w-[47%] max-lg:w-full">
         <p className="3xl:text-3xlp 3xl:leading-3xlp 2xl:text-2xlp 2xl:leading-2xlp xl:text-xlp xl:leading-xlp lg:text-lgp lg:leading-lgp md:text-mdp md:leading-mdp sm:text-smp sm:leading-smp">

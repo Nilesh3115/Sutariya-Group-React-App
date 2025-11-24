@@ -10,7 +10,7 @@ const WorkSection = () => {
         <section className="flex flex-col justify-center 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] 
         xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] 
         sm:py-[40px] sm:px-[20px] 
-        font-outfit bg-black text-white w-full max-w-[1600px]">
+        font-outfit bg-black text-white w-full ">
 
             <div className="flex items-start justify-between flex-wrap w-full max-w-full gap-y-[40px] gap-x-[10px] mb-[40px] max-xl:gap-[10px] max-md:gap-y-[25px] max-md:gap-x-[0] max-xl:flex-col ">
 
@@ -37,7 +37,7 @@ const WorkSection = () => {
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
                             <h4 className="3xl:text-3xlh4 3xl:leading-3xlh4 2xl:text-2xlh4 2xl:leading-2xlh4 xl:text-xlh4 xl:leading-xlh4 lg:text-lgh4 lg:leading-lgh4 md:text-mdh4 md:leading-mdh4 sm:text-smh4 sm:leading-smh4 transition-colors duration-[900ms] group-hover:text-primary">Web, App & Digital Solutions</h4>
-                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary">Sutariya Infotech</h3>
+                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary"><a href="sutariyainfotech.com">Sutariya Infotech</a></h3>
                         </div>
                         <div className="flex w-[70px] h-[70px] items-center justify-center rounded-[50%] flex-none transition-colors duration-[900ms] group-hover:bg-[#065b69]">
                             <i className="text-[80px] size-full flex items-center justify-center transition-transform duration-[900ms] group-hover:scale-50"><GoArrowUpRight /></i>
@@ -52,7 +52,7 @@ const WorkSection = () => {
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
                             <h4 className="3xl:text-3xlh4 3xl:leading-3xlh4 2xl:text-2xlh4 2xl:leading-2xlh4 xl:text-xlh4 xl:leading-xlh4 lg:text-lgh4 lg:leading-lgh4 md:text-mdh4 md:leading-mdh4 sm:text-smh4 sm:leading-smh4 transition-colors duration-[900ms] group-hover:text-primary">IT Education & Training</h4>
-                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary">IT Scholars</h3>
+                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary"><a href="itscholars.in">IT Scholars</a></h3>
                         </div>
                         <div className="flex w-[70px] h-[70px] items-center justify-center rounded-[50%] flex-none transition-colors duration-[900ms] group-hover:bg-[#065b69]">
                             <i className="text-[80px] size-full flex items-center justify-center transition-transform duration-[900ms] group-hover:scale-50"><GoArrowUpRight /></i>
@@ -67,7 +67,7 @@ const WorkSection = () => {
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
                             <h4 className="3xl:text-3xlh4 3xl:leading-3xlh4 2xl:text-2xlh4 2xl:leading-2xlh4 xl:text-xlh4 xl:leading-xlh4 lg:text-lgh4 lg:leading-lgh4 md:text-mdh4 md:leading-mdh4 sm:text-smh4 sm:leading-smh4 transition-colors duration-[900ms] group-hover:text-primary">Creative Invitation Designs</h4>
-                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary">Digiinvitation</h3>
+                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary"><a href="digiinvitation.com">Digiinvitation</a></h3>
                         </div>
                         <div className="flex w-[70px] h-[70px] items-center justify-center rounded-[50%] flex-none transition-colors duration-[900ms] group-hover:bg-[#065b69]">
                             <i className="text-[80px] size-full flex items-center justify-center transition-transform duration-[900ms] group-hover:scale-50"><GoArrowUpRight /></i>
@@ -82,7 +82,7 @@ const WorkSection = () => {
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
                             <h4 className="3xl:text-3xlh4 3xl:leading-3xlh4 2xl:text-2xlh4 2xl:leading-2xlh4 xl:text-xlh4 xl:leading-xlh4 lg:text-lgh4 lg:leading-lgh4 md:text-mdh4 md:leading-mdh4 sm:text-smh4 sm:leading-smh4 transition-colors duration-[900ms] group-hover:text-primary">Customized Printing Solutions</h4>
-                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary">Uniprint</h3>
+                            <h3 className="3xl:text-3xlh3 3xl:leading-3xlh3 2xl:text-2xlh3 2xl:leading-2xlh3 xl:text-xlh3 xl:leading-xlh3 lg:text-lgh3 lg:leading-lgh3 md:text-mdh3 md:leading-mdh3 sm:text-smh3 sm:leading-smh3 transition-colors duration-[900ms] group-hover:text-primary"><a href="uniprint.in">Uniprint</a></h3>
                         </div>
                         <div className="flex w-[70px] h-[70px] items-center justify-center rounded-[50%] flex-none transition-colors duration-[900ms] group-hover:bg-[#065b69]">
                             <i className="text-[80px] size-full flex items-center justify-center transition-transform duration-[900ms] group-hover:scale-50"><GoArrowUpRight /></i>

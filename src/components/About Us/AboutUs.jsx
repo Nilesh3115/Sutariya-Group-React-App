@@ -1,7 +1,7 @@
 
 const AboutUs = () => {
     return (
-        <section className="flex flex-col justify-center items-center 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] sm:py-[40px] sm:px-[20px] font-outfit bg-black text-white gap-[30px] w-full max-w-[1600px] ">
+        <section className="flex flex-col justify-center items-center 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] sm:py-[40px] sm:px-[20px] font-outfit bg-black text-white gap-[30px] w-full  ">
 
             <div className="fade-in-up flex items-start justify-center flex-wrap max-w-full w-full sm:gap-x-[100px] sm:gap-y-[25px] mb-[40px] max-xl:justify-start max-xl:m-0  max-xl:flex-col">
                 {/* <!-- Section Title --> */}

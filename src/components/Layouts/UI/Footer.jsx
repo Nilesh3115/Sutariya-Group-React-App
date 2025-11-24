@@ -7,7 +7,7 @@ export const Footers = () => {
       className="flex flex-col items-center justify-center gap-12.5 3xl:px-[150px] 3xl:py-[80px] 2xl:p-[80px] xl:py-[80px] 
         xl:px-[60px] lg:py-[60px] lg:px-[40px] md:py-[40px] md:px-[20px] 
         sm:py-[40px] sm:px-[20px] 
-        font-outfit bg-black text-white w-full max-w-[1600px]"
+        font-outfit bg-black text-white w-full "
     >
       {/* Footer-top */}
       <div className="flex items-start max-lg:items-start justify-center max-lg:justify-start gap-12.5 max-3xl:gap-[44px] max-2xl:gap-[36px] max-xl:gap-[27px] max-lg:gap-[30px] flex-wrap border-b-1 border-[#616161] pb-12.5">

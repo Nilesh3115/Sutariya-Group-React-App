@@ -1,7 +1,7 @@
 
 const HeroSection = () => {
   return (
-    <section className="overflow-hidden relative h-screen w-full max-w-[1600px] bg-black/40">
+    <section className="overflow-hidden relative h-screen w-full  bg-black/40">
       <video
         autoPlay
         muted
