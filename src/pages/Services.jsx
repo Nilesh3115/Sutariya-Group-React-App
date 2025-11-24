@@ -11,7 +11,7 @@ export function Services() {
         <>
 
             <Breadcrums
-                description="Explore the wide range of services we offer to grow your business."
+                description="Explore our work across web development, application, branding and digital transformation."
                 bgImage={HeroBg}
             />
 

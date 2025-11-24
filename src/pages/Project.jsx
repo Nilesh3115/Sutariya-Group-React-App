@@ -9,7 +9,7 @@ export function Project() {
         <>
 
             <Breadcrums
-                description="Discover the impactful projects we have delivered across industries. Each project reflects our dedication to quality, innovation, and client success."
+                description="From websites and apps to digital, automation and cloud solution -we build systems that help you scale."
                 bgImage={HeroBg}
             />
 

@@ -11,7 +11,7 @@ export function About() {
         <>
 
             <Breadcrums
-                description="Learn about our company, our mission, and how we can help you."
+                description="We are innovators, developers, and stratergists committed to building digital products that transform bussiness."
                 bgImage={HeroBg}
             />
 
