@@ -32,7 +32,7 @@ const WhyChUs = () => {
         <img
           className="max-w-full w-full h-auto transition-transform duration-400 ease-in-out hover:translate-y-[-10px]"
           src="./images/AI Banner_03.jpg"
-          
+          loading="lazy"
           alt=""
         />
       </div>
@@ -42,7 +42,7 @@ const WhyChUs = () => {
           className="flex flex-col w-[31%] max-xl:w-[30%] max-lg:w-[47%] max-2xl:w-[47%]
 max-md:w-full items-start justify-center gap-5"
         >
-          <div className=" text-[50px] text-primary">
+          <div className=" text-[50px] text-white">
             <GrAchievement />
           </div>
           <div className="flex flex-col items-start justify-center gap-2.5">
@@ -62,7 +62,7 @@ max-md:w-full items-start justify-center gap-5"
           className="flex flex-col w-[31%] max-xl:w-[30%] max-lg:w-[47%] max-2xl:w-[47%]
 max-md:w-full items-start justify-center gap-5"
         >
-          <div className=" text-[50px] text-primary">
+          <div className=" text-[50px] text-white">
             <TbBulb />
           </div>
           <div className="flex flex-col items-start justify-center gap-2.5">
@@ -82,7 +82,7 @@ max-md:w-full items-start justify-center gap-5"
           className="flex flex-col w-[31%] max-xl:w-[30%] max-lg:w-[47%] max-2xl:w-[47%]
 max-md:w-full items-start justify-center gap-5"
         >
-          <div className=" text-[50px] text-primary">
+          <div className=" text-[50px] text-white">
             <PiUserFocusBold />
           </div>
           <div className="flex flex-col items-start justify-center gap-2.5">

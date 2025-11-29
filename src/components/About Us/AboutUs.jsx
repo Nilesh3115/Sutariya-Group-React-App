@@ -15,7 +15,7 @@ const AboutUs = () => {
 
             <div className="flex md:flex-row items-center justify-center max-w-full  max-lg:gap-y-[20] max-lg:gap-x-[40] gap-x-[100px] gap-y-[25px] sm:flex-col">
                 <div className="w-[50%] sm:w-[100%] h-auto md:w-[50%]">
-                    <img className="max-w-full w-full h-auto" src="./images/68767a21fe51d132a838140b_round_tube.png"  alt="" />
+                    <img className="max-w-full w-full h-auto" src="./images/68767a21fe51d132a838140b_round_tube.png" loading="lazy" alt="" />
                 </div>
 
                 <div className="w-[50%] sm:w-[100%] md:w-[50%] flex items-start justify-center flex-wrap gap-[80px] max-xl:gap-[40px]">
@@ -43,19 +43,19 @@ const AboutUs = () => {
 
             <div className="flex items-center justify-center gap-x-11 gap-y-4 py-2 flex-wrap">
                 <div className="max-lg:w-[30%] lg:w-[28%] xl:w-[21%] 2xl:w-[18%] 3xl:w-[17%]">
-                    <a href="https://itscholars.in/"><img className="size-full" src="./images/IT Scholars.png"  alt="" /></a>
+                    <a href="https://itscholars.in/"><img className="size-full" src="./images/IT Scholars.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="max-lg:w-[30%] lg:w-[28%] xl:w-[21%] 2xl:w-[18%] 3xl:w-[17%]">
-                    <a href="https://sutariyainfotech.com/"><img className="size-full" src="./images/Sutariya Infotech.png"  alt="" /></a>
+                    <a href="https://sutariyainfotech.com/"><img className="size-full" src="./images/Sutariya Infotech.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="max-lg:w-[30%] lg:w-[28%] xl:w-[21%] 2xl:w-[18%] 3xl:w-[17%]">
-                    <a href="https://digiinvitation.com/"><img className="size-full" src="./images/Digi Invitation.png"  alt="" /></a>
+                    <a href="https://digiinvitation.com/"><img className="size-full" src="./images/Digi Invitation.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="max-lg:w-[30%] lg:w-[28%] xl:w-[21%] 2xl:w-[18%] 3xl:w-[17%]">
-                    <a href="https://uniprint.in/"><img className="size-full" src="./images/Uniprint.png"  alt="" /></a>
+                    <a href="https://uniprint.in/"><img className="size-full" src="./images/Uniprint.png" loading="lazy" alt="" /></a>
                 </div>
                 <div className="max-lg:w-[30%] lg:w-[28%] xl:w-[21%] 2xl:w-[18%] 3xl:w-[17%]">
-                    <a href="#"><img className="size-full" src="./images/Marketing 365.png"  alt="" /></a>
+                    <a href="#"><img className="size-full" src="./images/Marketing 365.png" loading="lazy" alt="" /></a>
                 </div>
             </div>
 

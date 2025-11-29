@@ -32,7 +32,7 @@ const WorkSection = () => {
 
                 <div className="group flex flex-col gap-[20px] items-center justify-center w-[47%] max-3xl:w-[46%] max-lg:w-[100%]">
                     <div className="w-full h-[432px] overflow-hidden rounded-[10px] max-md:h-[350px]">
-                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Development & IT.jpg"  alt="UI/UX Design Project - Wayflyer Dashboard" />
+                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Development & IT.jpg" loading="lazy" alt="UI/UX Design Project - Wayflyer Dashboard" />
                     </div>
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
@@ -47,7 +47,7 @@ const WorkSection = () => {
 
                 <div className="group flex flex-col gap-[20px] items-center justify-center w-[47%] max-3xl:w-[46%] max-lg:w-[100%]">
                     <div className="w-full h-[432px] overflow-hidden rounded-[10px] max-md:h-[350px]">
-                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Education.jpg"  alt="Branding & Logo Project - Dynamotion" />
+                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Education.jpg" loading="lazy" alt="Branding & Logo Project - Dynamotion" />
                     </div>
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
@@ -62,7 +62,7 @@ const WorkSection = () => {
 
                 <div className="group flex flex-col gap-[20px] items-center justify-center w-[47%] max-3xl:w-[46%] max-lg:w-[100%]">
                     <div className="w-full h-[432px] overflow-hidden rounded-[10px] max-md:h-[350px]">
-                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Invitation.jpg"  alt="Digital Branding Project - Solaria Marketing" />
+                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Invitation.jpg" loading="lazy" alt="Digital Branding Project - Solaria Marketing" />
                     </div>
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">
@@ -77,7 +77,7 @@ const WorkSection = () => {
 
                 <div className="group flex flex-col gap-[20px] items-center justify-center w-[47%] max-3xl:w-[46%] max-lg:w-[100%]">
                     <div className="w-full h-[432px] overflow-hidden rounded-[10px] max-md:h-[350px]">
-                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Custom Print Solutions.jpg"  alt="Mobile App Design Project - Elevate Fitness App" />
+                        <img className="size-full transition duration-[900ms] group-hover:scale-110 " src="/images/Custom Print Solutions.jpg" loading="lazy" alt="Mobile App Design Project - Elevate Fitness App" />
                     </div>
                     <div className="flex items-center justify-between max-w-full w-full">
                         <div className="flex flex-col gap-[10px]">

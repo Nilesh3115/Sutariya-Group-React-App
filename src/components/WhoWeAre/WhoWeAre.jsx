@@ -13,7 +13,7 @@ const WhoWeAre = () => {
 
 
             <div className="w-[48%] max-2xl:w-[47%] max-lg:w-full max-md:w-full h-auto">
-                <img className="max-w-full w-full h-auto transition-transform duration-400 ease-in-out hover:translate-y-[-10px]" src="./images/68767a21fe51d132a838140b_round_tube.png"  alt="" />
+                <img className="max-w-full w-full h-auto transition-transform duration-400 ease-in-out hover:translate-y-[-10px]" src="./images/68767a21fe51d132a838140b_round_tube.png" loading="lazy" alt="" />
             </div>
 
             <div className="w-[48%] max-2xl:w-[47%] max-lg:w-full  text-white flex flex-col items-start justify-start gap-y-2.5 gap-x-5">

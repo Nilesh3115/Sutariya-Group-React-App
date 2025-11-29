@@ -27,10 +27,10 @@ export const Headers = () => {
       {/* Logo */}
       <NavLink to="/">
         <img
-          src="/images/logo.png"
-          
+          src={isScrolled ? "/images/primary.png" : "/images/SG-white.png"}
+          loading="lazy"
           alt="logo"
-          className="w-[160px] h-[36px]"
+          className="w-[200px] h-[50px] transition-all duration-300"
         />
       </NavLink>
 
@@ -45,6 +45,7 @@ export const Headers = () => {
           <li className="list-none px-[20px] mb-[25px] lg:mb-0">
             <NavLink
               to="/"
+              onClick={() => setMenuActive(false)}
               className={`text-[16px] font-semibold ${
                 isScrolled ? "text-[#065b69]" : "text-white max-lg:text-primary"
               }`}
@@ -56,6 +57,7 @@ export const Headers = () => {
           <li className="list-none px-[20px] mb-[25px] lg:mb-0">
             <NavLink
               to="/about"
+              onClick={() => setMenuActive(false)} // 👈 important
               className={`text-[16px] font-semibold ${
                 isScrolled ? "text-[#065b69]" : "text-white max-lg:text-primary"
               }`}
@@ -67,6 +69,7 @@ export const Headers = () => {
           <li className="list-none px-[20px] mb-[25px] lg:mb-0">
             <NavLink
               to="/project"
+              onClick={() => setMenuActive(false)}
               className={`text-[16px] font-semibold ${
                 isScrolled ? "text-[#065b69]" : "text-white max-lg:text-primary"
               }`}
@@ -78,6 +81,7 @@ export const Headers = () => {
           <li className="list-none px-[20px] mb-[25px] lg:mb-0">
             <NavLink
               to="/services"
+              onClick={() => setMenuActive(false)}
               className={`text-[16px] font-semibold ${
                 isScrolled ? "text-[#065b69]" : "text-white max-lg:text-primary"
               }`}

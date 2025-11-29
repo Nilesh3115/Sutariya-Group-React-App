@@ -8,7 +8,7 @@ const HeroSection = () => {
         loop
         playsInline
         className="min-h-full w-full max-w-full object-cover absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-1/2"
-        src="/images/3163534-uhd_3840_2160_30fps.mp4"
+        src="/images/BG.mp4"
       ></video>
 
       <div className="flex flex-col justify-start items-start text-start 

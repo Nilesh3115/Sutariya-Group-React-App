@@ -3,7 +3,7 @@ import { AppLayout } from "./components/Layouts/AppLayout";
 
 
 import "./App.css";
-import "./Media.css";
+// import "./Media.css";
 
 
 import { Home } from "./pages/Home";
