@@ -32,7 +32,7 @@ const WhyChUs = () => {
         <img
           className="max-w-full w-full h-auto transition-transform duration-400 ease-in-out hover:translate-y-[-10px]"
           src="./images/AI Banner_03.jpg"
-          loading="lazy"
+          
           alt=""
         />
       </div>

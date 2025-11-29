@@ -28,7 +28,7 @@ export const Headers = () => {
       <NavLink to="/">
         <img
           src="/images/logo.png"
-          loading="lazy"
+          
           alt="logo"
           className="w-[160px] h-[36px]"
         />

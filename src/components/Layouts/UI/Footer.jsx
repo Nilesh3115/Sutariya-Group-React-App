@@ -15,8 +15,8 @@ export const Footers = () => {
         <div className="w-1/5 max-lg:w-full">
           <a href="/" className="footer-logo">
             <img
-              className="w-[160px] h-[36px] mb-5"
-              src="/images/logo.png"
+              className="w-[200px] mb-5 object-center object-cover"
+              src="/images/SG-white.png"
               alt="Your Brand Logo"
             />
           </a>

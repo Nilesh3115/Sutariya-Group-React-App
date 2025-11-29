@@ -50,7 +50,7 @@ const Testimonials = () => {
             <div className="fade-in-up flex items-center justify-start flex-wrap gap-y-[20px] gap-x-[50px] max-xl:gap-5 max-lg:flex-col max-lg:gap-2.5">
                 {/* Test Left */}
                 <div className="w-[40%] max-w-full max-xl:w-[48%] max-lg:w-full h-auto flex items-center justify-center p-5">
-                    <img className="size-full max-w-full max-lg:h-100 m-h-[500px] rounded-lg" src="./images/68767a21fe51d132a838140f_testimony-image-1.webp" loading="lazy" alt="" />
+                    <img className="size-full max-w-full max-lg:h-100 m-h-[500px] rounded-lg" src="./images/68767a21fe51d132a838140f_testimony-image-1.webp"  alt="" />
                 </div>
 
                 {/* Slideshow Container */}
